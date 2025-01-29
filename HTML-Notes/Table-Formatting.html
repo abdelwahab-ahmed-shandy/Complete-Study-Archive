@@ -1,31 +1,20 @@
-Brief Description:
+شرح مختصر:
+هذا الملف يشرح كيفية إنشاء وتصميم الجداول باستخدام HTML وCSS.
+ يغطي هيكلية الجداول (thead, tbody, tfoot) وكيفية دمج الخلايا وتنسيق الجداول باستخدام CSS أو مكتبات مثل Bootstrap.
+ يتضمن أمثلة عملية لاستخدام الجداول مع الـ Back-end مثل ASP.NET Razor. 
+مناسب لتعلم تصميم واجهات مستخدم تعتمد على الجداول.
+==============================================================
+ الهيكل الأساسي للجداول: 
+<table>: العنصر الأساسي لإنشاء جدول.
+<thead>: يحتوي على صف الرأس.
+<tbody>: يحتوي على محتوى الجدول (البيانات).
+<tfoot>: يحتوي على بيانات في أسفل الجدول (مثل المجموعات).
+<tr>: يمثل صفًا واحدًا في الجدول.
+<th>: خلية رأس (عادةً تكون بخط عريض).
+<td>: خلية بيانات (لإدخال القيم). 
+===========================================================
 
-This file explains how to create and design tables using HTML and CSS.
-
-It covers the structure of tables (thead, tbody, tfoot) and how to merge cells and format tables using CSS or libraries like Bootstrap.
-
-It includes practical examples of using tables with back-ends like ASP.NET Razor.
-
-It is suitable for learning to design user interfaces based on tables.
-
-=================================================================================================================
-Basic structure of tables:
-
-<table>: The basic element to create a table.
-
-<thead>: Contains the header row.
-
-<tbody>: Contains the content of the table (data).
-
-<tfoot>: Contains data at the bottom of the table (such as groups).
-
-<tr>: Represents a single row in the table.
-
-<th>: Header cell (usually bold).
-
-<td>: Data cell (for entering values).
-
-<table>
+ <table>
   <thead>
     <tr>
       <th>Header 1</th>
@@ -52,24 +41,23 @@ Basic structure of tables:
   </tfoot>
 </table>
 
-=================================================================================================================
-
-Merge cells horizontally:
+=============================================================
+دمج الخلايا أفقيًا:
 <td colspan="2">Merged Cells</td>
 
-Merge cells vertically:
+دمج الخلايا عموديًا:
 <td rowspan="2">Merged Rows</td>
-=================================================================================================================
-Using Properties with Tables
+ 
+==============================================================
+استخدام الخصائص مع الجداول
 
 <table border="1">
-<tr>
-<th>Header</th>
-<td>Data</td>
-</tr>
+  <tr>
+    <th>Header</th>
+    <td>Data</td>
+  </tr>
 </table>
-
-=================================================================================================================
+===============================
 css : 
 
 <style>
@@ -89,49 +77,49 @@ css :
     background-color: #f9f9f9;
   }
 </style>
-=================================================================================================================
-Using backend techniques (ASP.NET Razor as an example):
+
+===================================================================
+باستخدام تقنيات الباك إند (ASP.NET Razor كمثال) : 
 
 <table>
-<thead>
-<tr>
-<th>ID</th>
-<th>Name</th>
-<th>Email</th>
-</tr>
-</thead>
-<tbody>
-@foreach (var user in Model.Users)
-{
-<tr>
-<td>@user.ID</td>
-<td>@user.Name</td>
-<td>@user.Email</td>
-</tr>
-}
-</tbody>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var user in Model.Users)
+    {
+      <tr>
+        <td>@user.ID</td>
+        <td>@user.Name</td>
+        <td>@user.Email</td>
+      </tr>
+    }
+  </tbody>
 </table>
-=================================================================================================================
-To add vertical or horizontal scrolling:
-
+=========================================================================
+لإضافة خاصية التمرير العمودي أو الأفقي: 
 <div style="overflow-x:auto;">
 <table>
-<thead>
-<tr>
-<th>Column 1</th>
-<th>Column 2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Data 1</td>
-<td>Data 2</td>
-</tr>
-</tbody>
-</table>
+    <thead>
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-=================================================================================================================
-Design a table using CSS libraries like Bootstrap:
+===========================================================================
+تصميم جدول باستخدام مكتبات CSS مثل Bootstrap:
 
 <table class="table table-striped table-bordered">
   <thead class="thead-dark">
@@ -151,25 +139,21 @@ Design a table using CSS libraries like Bootstrap:
     </tr>
   </tbody>
 </table>
-=================================================================================================================
-7. Additional features:
+=======================================================================================
+7. ميزات إضافية:
 
-Add titles or descriptive text:
-
+إضافة عناوين أو نصوص وصفية :
 <caption>Users Table</caption>
 
-Use icons inside cells (such as delete or edit):
+استخدام أيقونات داخل الخلايا (مثل الحذف أو التعديل) :
 <tr>
   <td>1</td>
   <td>John Doe</td>
   <td><button>Edit</button> <button>Delete</button></td>
 </tr>
-=================
-Add buttons or links:
-=================
+====================
+إضافة أزرار أو روابط:
+====================
 <td><a href="/edit/1">Edit</a></td>
-=================================================================================================================
-
-=================================================================================================================
 
 
