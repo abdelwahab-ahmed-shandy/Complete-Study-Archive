@@ -42,11 +42,10 @@ Let’s connect, collaborate, and explore the vast world of tech together!
 Welcome to **My Study Archive**! This repository is a structured collection of my study materials, notes, and resources, covering various topics related to programming, cybersecurity, databases, and more.
 
 ## 📌 Contents
-- **Programming Concepts & Algorithms** – Notes, code snippets, and problem-solving techniques.
-- **Cybersecurity & CTF Write-ups** – Security concepts, penetration testing notes, and solutions to CTF challenges.
+- **Programming Concepts & Algorithms** – Notes, code snippets, and problem-solving techniques , C++ , C#.
+- **Cybersecurity & CTF Write-ups** – Security concepts, penetration testing notes, Soc notes, and solutions to CTF challenges.
 - **Database Design & SQL Practice** – ERD/EERD designs, relational schemas, and SQL implementations.
-- **.NET Development Insights** – Practical examples, best practices, and project-based learning.
-- **Entity Framework Mini-Projects** – Small-scale database projects using Entity Framework.
+- **.NET Development Insights** – All the notes you need to take for this course are here.
 - **Miscellaneous Study Materials** – Additional references, research topics, and personal notes.
 
 ## 🎯 Purpose
