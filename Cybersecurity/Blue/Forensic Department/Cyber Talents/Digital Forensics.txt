@@ -1,0 +1,18 @@
+I solved some labs in this section. I will leave the name of the lab and the link to solve it. There will always be an update :
+
+Cyber Talents :
+
+-	File Found :
+https://medium.com/@abdelwahabshandy/digital-forensics-file-found-3924f1071d61
+
+-	I love images :
+https://medium.com/@abdelwahabshandy/digital-forensics-i-love-images-7846be0c1a93
+
+-	Cypher Anxiety :
+https://medium.com/@abdelwahabshandy/digital-forensics-cypher-anxiety-3a01ede3aee2
+
+-	Hidden Message :
+https://medium.com/@abdelwahabshandy/digital-forensics-hidden-message-ad208f3632cf
+
+-	G&P List :
+https://medium.com/@abdelwahabshandy/digital-forensics-g-p-list-4c4dbf1b252b
