@@ -1,119 +1,117 @@
+بالنسبة لعنصر النموذج الرئيسي:
 
+action: يحدد عنوان URL للخادم الذي سيتم إرسال البيانات إليه.
 
-For the main form element:
+method: يحدد نوع الطلب (GET أو POST).
 
-action: Specifies the server URL to which the data will be sent.
+GET: يتم إرسال البيانات عبر عنوان URL.
 
-method: Specifies the type of request (GET or POST).
-
-GET: Data is sent via URL.
-
-POST: Data is sent in the body of the request (more secure).
+POST: يتم إرسال البيانات في نص الطلب (أكثر أمانًا).
 
 <form action="/submit-url" method="POST">
 
-<!-- Form elements here -->
+<!-- عناصر النموذج هنا -->
 </form>
-=================================================================================================================
-Basic Form Elements:
-======================
-Text Field:
-<input type="text" name="username" placeholder="Enter your username" required>
+=================================================================================================================================
+عناصر النموذج الأساسية:
+========================
+حقل النص:
+<input type="text" name="username" placeholder="أدخل اسم المستخدم الخاص بك" مطلوب>
 
-Password:
-<input type="password" name="password" placeholder="Enter your password" required>
+كلمة المرور:
+<input type="password" name="password" placeholder="أدخل كلمة المرور الخاصة بك" مطلوب>
 
-Email Field:
-<input type="email" name="email" placeholder="Enter your email" required>
+البريد الإلكتروني الحقل:
+<input type="email" name="email" placeholder="أدخل بريدك الإلكتروني" مطلوب>
 
-Numbers Only:
-<input type="number" name="age" placeholder="Enter your age" min="1" max="100">
+الأرقام فقط:
+<input type="number" name="age" placeholder="أدخل عمرك" min="1" max="100">
 
-Date and Time Fields:
+حقول التاريخ والوقت:
 <input type="date" name="birthdate">
 <input type="datetime-local" name="appointment">
 <input type="time" name="time">
 
-Select from File:
+اختر من الملف:
 <input type="file" name="file-upload" accept=".jpg,.png,.pdf">
 
-Multi-Textarea Field:
-<textarea name="message" rows="4" cols="50" placeholder="Write your message here"></textarea>
+حقل متعدد النصوص:
+<textarea name="message" rows="4" cols="50" placeholder="اكتب رسالتك هنا"></textarea>
 
-Submit button:
+زر الإرسال:
 <input type="submit" value="Submit">
 
-Reset button:
+زر إعادة الضبط:
 <input type="reset" value="Reset">
 
-=================================================================================================================
-Selection items:
-==============
-Dropdown:
+====================================================================================================================================================
+عناصر التحديد:
+================
+القائمة المنسدلة:
 
-<select name="country" required>
-<option value="">Select your country</option>
-<option value="egypt">Egypt</option>
-<option value="usa">USA</option>
+<select name="country" require>
+<option value="">حدد بلدك</option>
+<option value="egypt">مصر</option>
+<option value="usa">الولايات المتحدة الأمريكية</option>
 </select>
 
-Checkboxes:
+مربعات الاختيار:
 <label>
-<input type="checkbox" name="agree" value="yes" required>
-I agree to the terms and conditions
+<input type="checkbox" name="agree" القيمة = "نعم" مطلوبة>
+أوافق على الشروط والأحكام
 </label>
 
-Radio Buttons:
+أزرار الاختيار:
 <label>
-<input type="radio" name="gender" value="male" required> Male
+<input type="radio" name="gender" value="male" require> ذكر
 </label>
 <label>
-<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="female"> أنثى
 </label>
-=================================================================================================================
-Improve user experience with attributes:
+===========================================================================================================================================================================
+تحسين تجربة المستخدم باستخدام السمات:
 
-placeholder: Initial text inside fields.
+عنصر نائب: النص الأولي داخل الحقول.
 
-required: Makes the field mandatory.
+مطلوب: يجعل الحقل إلزاميًا.
 
-readonly: Makes the field viewable only.
+readonly: يجعل الحقل قابلاً للعرض فقط.
 
-disabled: Disables the field.
+disabled: يعطل الحقل.
 
-min and max: Specifies the minimum and maximum values.
+min and max: يحدد الحد الأدنى والحد الأقصى للقيم.
 
-pattern: Specifies a specific pattern for entering values ​​using regular expressions (Regex)
+النمط: يحدد نمطًا محددًا لإدخال القيم باستخدام التعبيرات العادية (Regex)
 
 <input type="text" name="phone" pattern="[0-9]{10}" placeholder="Enter 10-digit phone number">
-=================================================================================================================
-Improvements for developers:
+==========================================================================================================================================================
+تحسينات للمطورين:
 
-Attach default values:
+إرفاق القيم الافتراضية:
 <input type="text" name="username" value="DefaultUser">
 
-Hide input fields:
+إخفاء حقول الإدخال:
 <input type="hidden" name="userId" value="12345">
 
-Select default value in dropdown:
+حدد القيمة الافتراضية في القائمة المنسدلة:
 <select name="country">
-<option value="egypt" selected>Egypt</option>
+<option value="egypt" selected>مصر</option>
 </select>
-=================================================================================================================
-Fieldset with Legend label:
+==========================================================================================================================================================
+مجموعة الحقول مع تسمية الأسطورة:
 <fieldset>
- <legend>Personal Information</legend>
- <input type="text" name="firstName" placeholder="First Name" required>
- <input type="text" name="lastName" placeholder="Last Name" required>
+<legend>المعلومات الشخصية</legend>
+<input type="text" name="firstName" placeholder="First Name" require>
+<input type="text" name="lastName" placeholder="Last Name" مطلوب>
 </fieldset>
-=================================================================================================================
-Backend binding:
-================
-Submit via AJAX (example using Fetch API):
+=================================================================================================================================
+الربط الخلفي:
+=================
+الإرسال عبر AJAX (مثال باستخدام واجهة برمجة التطبيقات Fetch):
 
 <form id="myForm">
-<input type="text" name="username" placeholder="Enter your username" required>
-<button type="submit">Submit</button>
+<input type="text" name="username" placeholder="أدخل اسم المستخدم الخاص بك" مطلوب>
+<button type="submit">إرسال</button>
 </form>
 
 <script>
@@ -128,72 +126,72 @@ const result = await response.json();
 console.log(result);
 });
 </script>
-=================================================================================================================
-Upload multiple files:
-<input type="file" name="documents[]" multiple>
-=================================================================================================================
-Complete login form:
+======================================================================================================================================
+تحميل ملفات متعددة:
+<input type="file" name="documents[]" متعددة>
+========================================================================================================================================================================================
+استمارة تسجيل الدخول الكاملة:
 
 <form action="/login" method="POST">
- <label for="username">Username:</label>
- <input type="text" id="username" name="username" required>
+<label for="username">اسم المستخدم:</label>
+<input type="text" id="username" name="username" require>
 
- <label for="password">Password:</label>
- <input type="password" id="password" name="password" required>
+<label for="password">كلمة المرور:</label>
+<input type="password" id="password" name="password" require>
 
- <button type="submit">Login</button>
+<button type="submit">تسجيل الدخول</button>
 </form>
 =================================================================================================================
-XSS (XSS) Protection:
+حماية XSS (XSS):
 
-What is XSS?
-An XSS attack allows an attacker to inject malicious JavaScript code into a form or data entered by a user. This code is executed on other users' browsers.
+ما هو XSS؟
+يسمح هجوم XSS للمهاجم بحقن كود JavaScript ضار في نموذج أو بيانات يدخلها مستخدم. يتم تنفيذ هذا الكود على متصفحات المستخدمين الآخرين.
 
-How to protect:
-Input Sanitization:
-Make sure that the data entered by the user does not contain HTML or JavaScript code.
+كيفية الحماية:
+تطهير الإدخال:
+تأكد من أن البيانات التي يدخلها المستخدم لا تحتوي على كود HTML أو JavaScript.
 
-Example in C#:
-Using a library like System.Web to sanitize data
+مثال في C#:
+استخدام مكتبة مثل System.Web لتطهير البيانات
 
 using System.Web;
 string sanitizedInput = HttpUtility.HtmlEncode(userInput);
-==============================
-A practical example of a secure model:
+===============================
+مثال عملي لنموذج آمن:
 <form action="/submit" method="POST">
- <input type="hidden" name="_csrf" value="randomGeneratedToken">
- <label for="username">Username:</label>
- <input type="text" id="username" name="username" required>
+<input type="hidden" name="_csrf" value="randomGeneratedToken">
+<label for="username">اسم المستخدم:</label>
+<input type="text" id="username" name="username" require>
 
- <label for="email">Email:</label>
- <input type="email" id="email" name="email" required>
+<label for="email">البريد الإلكتروني:</label>
+<input type="email" id="email" name="email" require>
 
- <button type="submit">Submit</button>
+<button type="submit">إرسال</button>
 </form>
 ====================
-C# (server):
+C# (الخادم):
 [HttpPost]
-public IActionResult SubmitForm(string username, string email, string _csrf)
+public IActionResult SubmitForm(string اسم المستخدم، سلسلة البريد الإلكتروني، سلسلة _csrf)
 {
- // Verify CSRF Token
- var sessionToken = HttpContext.Session.GetString("CSRFToken");
- if (_csrf != sessionToken)
- {
- return Unauthorized("CSRF Token is invalid");
- }
-
- // Clean up the input
- string sanitizedUsername = HttpUtility.HtmlEncode(username);
- string sanitizedEmail = HttpUtility.HtmlEncode(email);
-
- //Complete processing...
- return Ok("Form submitted successfully!");
+// التحقق من رمز CSRF
+var sessionToken = HttpContext.Session.GetString("CSRFToken");
+if (_csrf != sessionToken)
+{
+return Unauthorized("رمز CSRF غير صالح");
 }
-=================================================================================================================
-Model with protection (CSRF Token):
+
+// تنظيف الإدخال
+string sanitizedUsername = HttpUtility.HtmlEncode(username);
+string sanitizedEmail = HttpUtility.HtmlEncode(email);
+
+//إكمال المعالجة...
+return Ok("تم إرسال النموذج بنجاح!");
+}
+==============================================================================================================================================
+النموذج المحمي (رمز CSRF):
 
 <form action="/secure-endpoint" method="POST">
- <input type="hidden" name="_csrf" value="token_value">
- <input type="text" name="data" required>
- <button type="submit">Submit</button>
+<input type="hidden" name="_csrf" value="token_value">
+<input type="text" name="data" require>
+<button type="submit">إرسال</button>
 </form>
