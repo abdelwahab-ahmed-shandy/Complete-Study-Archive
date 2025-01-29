@@ -1,3 +1,6 @@
+-- You should visit this link, where you will find many simple and large application projects on the database.
+-- https://github.com/abdelwahab-ahmed-shandy/Database-Design-with-ERD-EERD-Relational-Schemas-SQL-Implementation
+
 --Created By Abdelwahab Shandy
 --Don't Forget To Pray For Me And My Parents
 --Data Definition Language 
