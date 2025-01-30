@@ -1,0 +1,10 @@
+You have to learn some things like how to deal with the Linux system. You have to start with this.
+If you are going to learn pentest or even Soc I don't have to study Linux :
+here : https://youtube.com/playlist?list=PLped9VG7STA_lp6LNld6JgDybvPECOiPU&si=kWgWULMQNQRMER-y
+
+In the Windows section, you need to know what active directory 
+If you increase the information more, you will benefit, 
+but my personal opinion and the opinion of many experts was to know what is happening in the Active Directory well.
+
+Here : https://youtube.com/playlist?list=PLped9VG7STA9IOYfge1msnM_bULREyNS-&si=maI0Eg4VKrWYmzNl
+or https://youtube.com/playlist?list=PLDxVq3TlR9y2sMXaL_yLp-r6pUpevgC-w&si=lsQSS_uSKOZf_ewe

@@ -1,0 +1,25 @@
+You have to learn some important basics in the field of professional programming in general. I do not advise starting with Python as many claim so that you do not get shocked in the future.
+ I advise this map. From it, you will learn programming correctly. 
+ From it, it did not hinder your learning of cybersecurity,
+ but it supported you in software in a better way. I hope that you listen to my advice and do not make mistakes as I made.
+ You will learn a complete track from this link. At the end of it,
+ you will be able to create a desktop application. If you complete the map, 
+ it is for yourself. If you do not complete it, take from it what will establish you in general.
+ My personal vision is that the foundation is no less than specialization in something.
+ You must complete the entire map. This is my personal advice. 
+ 
+ You will learn first C++, then OB, then C# and databases in a very deep way, then you will do many good projects, 
+ and on the way or on this journey you will do small and large projects and you will understand what programming challenges are and how to solve them. 
+ I wish you success and I hope that you listen to this advice so that you do not regret it in the future.
+ 
+ Here :  https://www.youtube.com/playlist?list=PL3X--QIIK-OHgMV2yBz3GLfM5d_5BxOSj
+ 
+ 
+ 
+ After you finish course number 4, you will complete the rest of the map here. By the way,
+ there are discounts for those who cannot pay the price of the course.
+ There are discount codes available on the platform that reach 100% for those who cannot pay these prices, 
+ but I ask you to be very honest in this matter.
+ 
+ Here : https://programmingadvices.com/p/roadmap
+ 
