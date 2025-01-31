@@ -1,7 +1,0 @@
-I solved some labs in this section. I will leave the name of the lab and the link to solve it. There will always be an update  :
-	
-	CyberDefenders 
-
--	Qradar101 Blue Team Challenge
-
-https://medium.com/@abdelwahabshandy/cyberdefenders-qradar101-blue-team-challenge-cf2593f484d4
