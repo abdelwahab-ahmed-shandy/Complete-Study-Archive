@@ -8,3 +8,22 @@ but my personal opinion and the opinion of many experts was to know what is happ
 
 Here : https://youtube.com/playlist?list=PLped9VG7STA9IOYfge1msnM_bULREyNS-&si=maI0Eg4VKrWYmzNl
 or https://youtube.com/playlist?list=PLDxVq3TlR9y2sMXaL_yLp-r6pUpevgC-w&si=lsQSS_uSKOZf_ewe
+
+There is also the same content on the maharatech platform,
+and upon completion you will be able to get a certificate to put in your CV and also on LinkedIn
+here : https://maharatech.gov.eg/course/view.php?id=2115
+
+عليك أن تتعلم بعض الأشياء مثل كيفية التعامل مع نظام Linux. عليك أن تبدأ بهذا.
+إذا كنت ستتعلم اختبار الاختراق أو حتى SoC فلا داعي لدراسة Linux :
+هنا : https://youtube.com/playlist?list=PLped9VG7STA_lp6LNld6JgDybvPECOiPU&si=kWgWULMQNQRMER-y
+
+في قسم Windows، تحتاج إلى معرفة ما هو Active Directory
+إذا قمت بزيادة المعلومات أكثر، فستستفيد،
+لكن رأيي الشخصي ورأي العديد من الخبراء هو معرفة ما يحدث في Active Directory جيدًا.
+
+هنا: https://youtube.com/playlist?list=PLped9VG7STA9IOYfge1msnM_bULREyNS-&si=maI0Eg4VKrWYmzNl
+أو https://youtube.com/playlist?list=PLDxVq3TlR9y2sMXaL_yLp-r6pUpevgC-w&si=lsQSS_uSKOZf_ewe
+
+كما يوجد نفس المحتوى على منصة maharatech،
+وبعد الانتهاء منه ستتمكن من الحصول على شهادة لوضعها في سيرتك الذاتية وأيضًا على LinkedIn
+هنا: https://maharatech.gov.eg/course/view.php?id=2115
