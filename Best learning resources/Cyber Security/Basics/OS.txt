@@ -13,6 +13,10 @@ There is also the same content on the maharatech platform,
 and upon completion you will be able to get a certificate to put in your CV and also on LinkedIn
 here : https://maharatech.gov.eg/course/view.php?id=2115
 
+==================================================================================================================
+==================================================================================================================
+==================================================================================================================
+
 عليك أن تتعلم بعض الأشياء مثل كيفية التعامل مع نظام Linux. عليك أن تبدأ بهذا.
 إذا كنت ستتعلم اختبار الاختراق أو حتى SoC فلا داعي لدراسة Linux :
 هنا : https://youtube.com/playlist?list=PLped9VG7STA_lp6LNld6JgDybvPECOiPU&si=kWgWULMQNQRMER-y
