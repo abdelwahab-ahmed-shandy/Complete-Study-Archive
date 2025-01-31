@@ -4,7 +4,9 @@ This means that you start by defining entities (classes) in your code, and then 
 قبل عمل ال  Migration عليك التاكد من وجود :
 Data Source=.;Initial Catalog=EFTest510;Integrated Security=True;TrustServerCertificate=True
 
+
 داخل ال optionsBuilder.UseSqlServer :
+في داخل ملف ال DbContext :
 optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=EFTest510;Integrated Security=True;TrustServerCertificate=True");
 
 حتي يتاكد انها هتسمع في قاعدة البيانات
