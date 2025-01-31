@@ -1,0 +1,23 @@
+I solved some labs in this section. I will leave the name of the lab and the link to solve it. There will always be an update :
+
+APPRENTICE :
+
+-	User ID controlled by request parameter, with unpredictable user IDs :
+https://medium.com/@abdelwahabshandy/access-control-vulnerabilities-apprentice-user-id-controlled-by-request-parameter-with-087efd47a0ae
+
+-	User ID controlled by request parameter :
+https://medium.com/@abdelwahabshandy/access-control-vulnerabilities-apprentice-user-id-controlled-by-request-parameter-07d692e4785a
+
+-	User role can be modified in user profile :
+https://medium.com/@abdelwahabshandy/access-control-vulnerabilities-apprentice-user-role-can-be-modified-in-user-profile-f3610002d21e
+
+-	User role controlled by request parameter :
+https://medium.com/@abdelwahabshandy/access-control-vulnerabilities-apprentice-user-role-controlled-by-request-parameter-09e13b58f3a2
+
+-	Unprotected admin functionality with unpredictable URL :
+https://medium.com/@abdelwahabshandy/access-control-vulnerabilities-apprentice-unprotected-admin-functionality-with-unpredictable-83f83eee86a4
+
+-	Unprotected admin functionality :
+https://medium.com/@abdelwahabshandy/access-control-vulnerabilities-apprentice-unprotected-admin-functionality-776bc66a5b5a
+
+
