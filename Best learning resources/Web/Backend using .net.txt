@@ -1,0 +1,80 @@
+I'll assume you've already studied the basics well enough so you don't stumble forward and get slapped in the face.
+
+It will start with the following:
+
+C# Fundamentals :
+https://www.youtube.com/playlist?list=PLsV97AQt78NT0H8J71qe7edwRpAirfqOI
+
+oop :
+https://www.youtube.com/playlist?list=PLsV97AQt78NQumtM4rQc77yjbkZcGOTX5
+
+Database :
+https://www.youtube.com/playlist?list=PLSGEGD0dbMKrvd5ppnyFLm7q3xEH97T-t
+
+OR Below is the best. This is my personal opinion, and the choice is yours :
+
+Database  - SQL :
+https://programmingadvices.com/courses/enrolled/2040664
+
+Database - SQL ( Projects & Practice) :
+https://programmingadvices.com/courses/enrolled/2076120
+
+Linq :
+https://www.youtube.com/playlist?list=PL62tSREI9C-c8OrLP_atJC_2PXqHKnUme
+or 
+https://www.youtube.com/playlist?list=PL4n1Qos4Tb6Sj1Y4xJuJoWCuqleeG2yt6
+
+EF :
+https://www.youtube.com/playlist?list=PL4n1Qos4Tb6QZkbTWJx7wHqEABP8Pg6uv
+
+EF And Linq :
+https://www.youtube.com/playlist?list=PL62tSREI9C-cHV28v-EqWinveTTAos8Pp
+
+MVC :
+https://www.youtube.com/playlist?list=PL62tSREI9C-cQ21T5HIWqqBOHQiNMOhBG
+
+ASP.NET Core For Beginners :
+https://www.youtube.com/playlist?list=PLsV97AQt78NQ8E7cEqovH0zLYRJgJahGh
+
+
+=================================================================================================
+=================================================================================================
+=================================================================================================
+
+سأفترض أنك درست الأساسيات جيدًا بما يكفي حتى لا تتعثر وتتلقى صفعة على وجهك.
+
+سيبدأ الأمر بما يلي:
+
+أساسيات C#:
+https://www.youtube.com/playlist?list=PLsV97AQt78NT0H8J71qe7edwRpAirfqOI
+
+oop:
+https://www.youtube.com/playlist?list=PLsV97AQt78NQumtM4rQc77yjbkZcGOTX5
+
+قاعدة البيانات:
+https://www.youtube.com/playlist?list=PLSGEGD0dbMKrvd5ppnyFLm7q3xEH97T-t
+
+أو فيما يلي الأفضل. هذا رأيي الشخصي، والاختيار لك:
+
+قاعدة البيانات - SQL:
+https://programmingadvices.com/courses/enrolled/2040664
+
+قاعدة البيانات - SQL (المشاريع والممارسة):
+https://programmingadvices.com/courses/enrolled/2076120
+
+Linq:
+https://www.youtube.com/playlist?list=PL62tSREI9C-c8OrLP_atJC_2PXqHKnUme
+أو
+https://www.youtube.com/playlist?list=PL4n1Qos4Tb6Sj1Y4xJuJoWCuqleeG2yt6
+
+EF:
+https://www.youtube.com/playlist?list=PL4n1Qos4Tb6QZkbTWJx7wHqEABP8Pg6uv
+
+EF وLinq :
+https://www.youtube.com/playlist?list=PL62tSREI9C-cHV28v-EqWinveTTAos8Pp
+
+MVC :
+https://www.youtube.com/playlist?list=PL62tSREI9C-cQ21T5HIWqqBOHQiNMOhBG
+
+ASP.NET Core للمبتدئين :
+https://www.youtube.com/playlist?list=PLsV97AQt78NQ8E7cEqovH0zLYRJgJahGh
