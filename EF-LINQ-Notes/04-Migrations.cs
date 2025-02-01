@@ -1,3 +1,7 @@
+// After finishing creating the files, classes and connections, we will now create the three actual bases, 
+// so before that we have to create some migrations in which we can see the complete data base before creating it,
+// so here are some commands that will help you in this matter
+
 Migrations :
 ===============
 
