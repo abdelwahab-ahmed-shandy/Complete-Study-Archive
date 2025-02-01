@@ -1,20 +1,28 @@
-يعني أنك تبدأ بتعريف الكيانات (الكلاسات) في الكود، ثم يقوم Entity Framework بإنشاء قاعدة البيانات بناءً على هذه الكيانات
-This means that you start by defining entities (classes) in your code, and then Entity Framework creates the database based on these entities.
-
-قبل عمل ال  Migration عليك التاكد من وجود :
-Data Source=.;Initial Catalog=EFTest510;Integrated Security=True;TrustServerCertificate=True
+// عليك الان انشاء فولدر تحت مسمى  Data or Data Access 
+// Now you have to create a folder called Data or Data Access:
 
 
-داخل ال optionsBuilder.UseSqlServer :
-في داخل ملف ال DbContext :
+// We will create a class inside it called :  ApplicationDbContext
+
+
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            base.OnConfiguring(optionsBuilder);
+            optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=EFTest510;Integrated Security=True;TrustServerCertificate=True");
+        }
+
+
+// This part calls the base method from which it inherits :
+
+base.OnConfiguring(optionsBuilder);
+
+// You can say that this part is the page that you log in to when you enter the server :
+// This section explains how to connect to the database on the server.
+// داخل ال optionsBuilder.UseSqlServer :
+// في داخل ملف ال DbContext :
+
 optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=EFTest510;Integrated Security=True;TrustServerCertificate=True");
 
-حتي يتاكد انها هتسمع في قاعدة البيانات
 
-بعدها يمكنك عمل : Migration
- و باستخدام أمر  Migration :
+// Each connection changes depending on the database (Initial Catalog) name and server name (Data Source).
 
-Add-Migration InitialCreate
-Update-Database
-
-يتم إنشاء جدول باسم Students في قاعدة البيانات
