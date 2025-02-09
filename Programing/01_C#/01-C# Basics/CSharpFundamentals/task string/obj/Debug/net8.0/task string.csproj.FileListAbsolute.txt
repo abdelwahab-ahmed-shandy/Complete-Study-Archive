@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\task string\obj\Debug\net8.0\task string.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\task string\obj\Debug\net8.0\task string.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\task string\obj\Debug\net8.0\task string.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\task string\obj\Debug\net8.0\task string.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\task string\bin\Debug\net8.0\task string.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\task string\bin\Debug\net8.0\task string.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\task string\bin\Debug\net8.0\task string.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\task string\bin\Debug\net8.0\task string.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\task string\bin\Debug\net8.0\task string.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\task string\obj\Debug\net8.0\task string.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\task string\obj\Debug\net8.0\refint\task string.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\task string\obj\Debug\net8.0\task string.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\task string\obj\Debug\net8.0\task string.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\task string\obj\Debug\net8.0\ref\task string.dll

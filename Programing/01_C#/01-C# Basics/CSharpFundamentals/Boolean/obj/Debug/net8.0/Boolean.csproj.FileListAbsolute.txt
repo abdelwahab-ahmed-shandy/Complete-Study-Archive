@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\Boolean\bin\Debug\net8.0\Boolean.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\Boolean\bin\Debug\net8.0\Boolean.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Boolean\bin\Debug\net8.0\Boolean.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Boolean\bin\Debug\net8.0\Boolean.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Boolean\bin\Debug\net8.0\Boolean.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Boolean\obj\Debug\net8.0\Boolean.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\Boolean\obj\Debug\net8.0\Boolean.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Boolean\obj\Debug\net8.0\Boolean.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\Boolean\obj\Debug\net8.0\Boolean.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Boolean\obj\Debug\net8.0\Boolean.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Boolean\obj\Debug\net8.0\refint\Boolean.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Boolean\obj\Debug\net8.0\Boolean.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Boolean\obj\Debug\net8.0\Boolean.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Boolean\obj\Debug\net8.0\ref\Boolean.dll

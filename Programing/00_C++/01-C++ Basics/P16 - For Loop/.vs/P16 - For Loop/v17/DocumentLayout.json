@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\1_Programming\\1_C\u002B\u002B\\P16 - For Loop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C3BBCCF-C782-4C54-A310-A47AE1D11018}|P16 - For Loop\\P16 - For Loop.vcxproj|E:\\1_Programming\\1_C\u002B\u002B\\P16 - For Loop\\P16 - For Loop\\P16 - For Loop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C3BBCCF-C782-4C54-A310-A47AE1D11018}|P16 - For Loop\\P16 - For Loop.vcxproj|solutionrelative:P16 - For Loop\\P16 - For Loop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "P16 - For Loop.cpp",
+              "DocumentMoniker": "E:\\1_Programming\\1_C\u002B\u002B\\P16 - For Loop\\P16 - For Loop\\P16 - For Loop.cpp",
+              "RelativeDocumentMoniker": "P16 - For Loop\\P16 - For Loop.cpp",
+              "ToolTip": "E:\\1_Programming\\1_C\u002B\u002B\\P16 - For Loop\\P16 - For Loop\\P16 - For Loop.cpp",
+              "RelativeToolTip": "P16 - For Loop\\P16 - For Loop.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-15T00:04:45.563Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

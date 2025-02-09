@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\Contrling Flow\obj\Debug\net8.0\Contrling Flow.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\Contrling Flow\obj\Debug\net8.0\Contrling Flow.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Contrling Flow\obj\Debug\net8.0\Contrling Flow.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\Contrling Flow\obj\Debug\net8.0\Contrling Flow.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Contrling Flow\bin\Debug\net8.0\Contrling Flow.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\Contrling Flow\bin\Debug\net8.0\Contrling Flow.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Contrling Flow\bin\Debug\net8.0\Contrling Flow.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Contrling Flow\bin\Debug\net8.0\Contrling Flow.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Contrling Flow\bin\Debug\net8.0\Contrling Flow.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Contrling Flow\obj\Debug\net8.0\Contrling Flow.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Contrling Flow\obj\Debug\net8.0\refint\Contrling Flow.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Contrling Flow\obj\Debug\net8.0\Contrling Flow.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Contrling Flow\obj\Debug\net8.0\Contrling Flow.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Contrling Flow\obj\Debug\net8.0\ref\Contrling Flow.dll

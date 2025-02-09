@@ -1,0 +1,4 @@
+﻿  P13HW_Functions.cpp
+E:\1_Programming\1_C++\P13HW_Functions\P13HW_Functions\P13HW_Functions.cpp(40,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\1_Programming\1_C++\P13HW_Functions\P13HW_Functions\P13HW_Functions.cpp(40,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  P13HW_Functions.vcxproj -> E:\1_Programming\1_C++\P13HW_Functions\x64\Debug\P13HW_Functions.exe

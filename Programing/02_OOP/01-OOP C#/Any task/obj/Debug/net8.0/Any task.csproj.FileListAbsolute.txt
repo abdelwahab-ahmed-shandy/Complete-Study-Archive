@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\OOP C#\Any task\bin\Debug\net8.0\Any task.exe
+E:\1_Programming\MY With C#\OOP C#\Any task\bin\Debug\net8.0\Any task.deps.json
+E:\1_Programming\MY With C#\OOP C#\Any task\bin\Debug\net8.0\Any task.runtimeconfig.json
+E:\1_Programming\MY With C#\OOP C#\Any task\bin\Debug\net8.0\Any task.dll
+E:\1_Programming\MY With C#\OOP C#\Any task\bin\Debug\net8.0\Any task.pdb
+E:\1_Programming\MY With C#\OOP C#\Any task\obj\Debug\net8.0\Any task.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\OOP C#\Any task\obj\Debug\net8.0\Any task.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\OOP C#\Any task\obj\Debug\net8.0\Any task.AssemblyInfo.cs
+E:\1_Programming\MY With C#\OOP C#\Any task\obj\Debug\net8.0\Any task.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\OOP C#\Any task\obj\Debug\net8.0\Any task.dll
+E:\1_Programming\MY With C#\OOP C#\Any task\obj\Debug\net8.0\refint\Any task.dll
+E:\1_Programming\MY With C#\OOP C#\Any task\obj\Debug\net8.0\Any task.pdb
+E:\1_Programming\MY With C#\OOP C#\Any task\obj\Debug\net8.0\Any task.genruntimeconfig.cache
+E:\1_Programming\MY With C#\OOP C#\Any task\obj\Debug\net8.0\ref\Any task.dll

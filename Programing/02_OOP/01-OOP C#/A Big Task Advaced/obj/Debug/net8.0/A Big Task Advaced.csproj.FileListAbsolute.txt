@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\OOP C#\A Big Task Advaced\bin\Debug\net8.0\A Big Task Advaced.exe
+E:\1_Programming\MY With C#\OOP C#\A Big Task Advaced\bin\Debug\net8.0\A Big Task Advaced.deps.json
+E:\1_Programming\MY With C#\OOP C#\A Big Task Advaced\bin\Debug\net8.0\A Big Task Advaced.runtimeconfig.json
+E:\1_Programming\MY With C#\OOP C#\A Big Task Advaced\bin\Debug\net8.0\A Big Task Advaced.dll
+E:\1_Programming\MY With C#\OOP C#\A Big Task Advaced\bin\Debug\net8.0\A Big Task Advaced.pdb
+E:\1_Programming\MY With C#\OOP C#\A Big Task Advaced\obj\Debug\net8.0\A Big Task Advaced.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\OOP C#\A Big Task Advaced\obj\Debug\net8.0\A Big Task Advaced.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\OOP C#\A Big Task Advaced\obj\Debug\net8.0\A Big Task Advaced.AssemblyInfo.cs
+E:\1_Programming\MY With C#\OOP C#\A Big Task Advaced\obj\Debug\net8.0\A Big Task Advaced.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\OOP C#\A Big Task Advaced\obj\Debug\net8.0\A Big Task Advaced.dll
+E:\1_Programming\MY With C#\OOP C#\A Big Task Advaced\obj\Debug\net8.0\refint\A Big Task Advaced.dll
+E:\1_Programming\MY With C#\OOP C#\A Big Task Advaced\obj\Debug\net8.0\A Big Task Advaced.pdb
+E:\1_Programming\MY With C#\OOP C#\A Big Task Advaced\obj\Debug\net8.0\A Big Task Advaced.genruntimeconfig.cache
+E:\1_Programming\MY With C#\OOP C#\A Big Task Advaced\obj\Debug\net8.0\ref\A Big Task Advaced.dll

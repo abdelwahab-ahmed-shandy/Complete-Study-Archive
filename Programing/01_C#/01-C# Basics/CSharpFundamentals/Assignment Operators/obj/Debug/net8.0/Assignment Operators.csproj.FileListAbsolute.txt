@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\Assignment Operators\bin\Debug\net8.0\Assignment Operators.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\Assignment Operators\bin\Debug\net8.0\Assignment Operators.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Assignment Operators\bin\Debug\net8.0\Assignment Operators.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Assignment Operators\bin\Debug\net8.0\Assignment Operators.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Assignment Operators\bin\Debug\net8.0\Assignment Operators.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Assignment Operators\obj\Debug\net8.0\Assignment Operators.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\Assignment Operators\obj\Debug\net8.0\Assignment Operators.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Assignment Operators\obj\Debug\net8.0\Assignment Operators.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\Assignment Operators\obj\Debug\net8.0\Assignment Operators.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Assignment Operators\obj\Debug\net8.0\Assignment Operators.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Assignment Operators\obj\Debug\net8.0\refint\Assignment Operators.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Assignment Operators\obj\Debug\net8.0\Assignment Operators.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Assignment Operators\obj\Debug\net8.0\Assignment Operators.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Assignment Operators\obj\Debug\net8.0\ref\Assignment Operators.dll

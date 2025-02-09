@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\OOP C#\Bank Account\bin\Debug\net8.0\Bank Account.exe
+E:\1_Programming\MY With C#\OOP C#\Bank Account\bin\Debug\net8.0\Bank Account.deps.json
+E:\1_Programming\MY With C#\OOP C#\Bank Account\bin\Debug\net8.0\Bank Account.runtimeconfig.json
+E:\1_Programming\MY With C#\OOP C#\Bank Account\bin\Debug\net8.0\Bank Account.dll
+E:\1_Programming\MY With C#\OOP C#\Bank Account\bin\Debug\net8.0\Bank Account.pdb
+E:\1_Programming\MY With C#\OOP C#\Bank Account\obj\Debug\net8.0\Bank Account.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\OOP C#\Bank Account\obj\Debug\net8.0\Bank Account.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\OOP C#\Bank Account\obj\Debug\net8.0\Bank Account.AssemblyInfo.cs
+E:\1_Programming\MY With C#\OOP C#\Bank Account\obj\Debug\net8.0\Bank Account.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\OOP C#\Bank Account\obj\Debug\net8.0\Bank Account.dll
+E:\1_Programming\MY With C#\OOP C#\Bank Account\obj\Debug\net8.0\refint\Bank Account.dll
+E:\1_Programming\MY With C#\OOP C#\Bank Account\obj\Debug\net8.0\Bank Account.pdb
+E:\1_Programming\MY With C#\OOP C#\Bank Account\obj\Debug\net8.0\Bank Account.genruntimeconfig.cache
+E:\1_Programming\MY With C#\OOP C#\Bank Account\obj\Debug\net8.0\ref\Bank Account.dll

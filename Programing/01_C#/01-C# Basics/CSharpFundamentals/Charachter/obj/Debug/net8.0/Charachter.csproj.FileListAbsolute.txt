@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\Charachter\bin\Debug\net8.0\Charachter.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\Charachter\bin\Debug\net8.0\Charachter.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Charachter\bin\Debug\net8.0\Charachter.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Charachter\bin\Debug\net8.0\Charachter.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Charachter\bin\Debug\net8.0\Charachter.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Charachter\obj\Debug\net8.0\Charachter.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\Charachter\obj\Debug\net8.0\Charachter.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Charachter\obj\Debug\net8.0\Charachter.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\Charachter\obj\Debug\net8.0\Charachter.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Charachter\obj\Debug\net8.0\Charachter.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Charachter\obj\Debug\net8.0\refint\Charachter.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Charachter\obj\Debug\net8.0\Charachter.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Charachter\obj\Debug\net8.0\Charachter.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Charachter\obj\Debug\net8.0\ref\Charachter.dll

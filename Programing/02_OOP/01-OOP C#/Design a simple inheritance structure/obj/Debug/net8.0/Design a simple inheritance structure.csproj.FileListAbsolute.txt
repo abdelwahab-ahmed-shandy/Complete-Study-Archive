@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\OOP C#\Design a simple inheritance structure\bin\Debug\net8.0\Design a simple inheritance structure.exe
+E:\1_Programming\MY With C#\OOP C#\Design a simple inheritance structure\bin\Debug\net8.0\Design a simple inheritance structure.deps.json
+E:\1_Programming\MY With C#\OOP C#\Design a simple inheritance structure\bin\Debug\net8.0\Design a simple inheritance structure.runtimeconfig.json
+E:\1_Programming\MY With C#\OOP C#\Design a simple inheritance structure\bin\Debug\net8.0\Design a simple inheritance structure.dll
+E:\1_Programming\MY With C#\OOP C#\Design a simple inheritance structure\bin\Debug\net8.0\Design a simple inheritance structure.pdb
+E:\1_Programming\MY With C#\OOP C#\Design a simple inheritance structure\obj\Debug\net8.0\Design a simple inheritance structure.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\OOP C#\Design a simple inheritance structure\obj\Debug\net8.0\Design a simple inheritance structure.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\OOP C#\Design a simple inheritance structure\obj\Debug\net8.0\Design a simple inheritance structure.AssemblyInfo.cs
+E:\1_Programming\MY With C#\OOP C#\Design a simple inheritance structure\obj\Debug\net8.0\Design a simple inheritance structure.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\OOP C#\Design a simple inheritance structure\obj\Debug\net8.0\Design a simple inheritance structure.dll
+E:\1_Programming\MY With C#\OOP C#\Design a simple inheritance structure\obj\Debug\net8.0\refint\Design a simple inheritance structure.dll
+E:\1_Programming\MY With C#\OOP C#\Design a simple inheritance structure\obj\Debug\net8.0\Design a simple inheritance structure.pdb
+E:\1_Programming\MY With C#\OOP C#\Design a simple inheritance structure\obj\Debug\net8.0\Design a simple inheritance structure.genruntimeconfig.cache
+E:\1_Programming\MY With C#\OOP C#\Design a simple inheritance structure\obj\Debug\net8.0\ref\Design a simple inheritance structure.dll

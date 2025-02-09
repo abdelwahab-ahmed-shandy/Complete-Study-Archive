@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\Enums\obj\Debug\net8.0\Enums.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\Enums\obj\Debug\net8.0\Enums.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Enums\obj\Debug\net8.0\Enums.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\Enums\obj\Debug\net8.0\Enums.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Enums\bin\Debug\net8.0\Enums.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\Enums\bin\Debug\net8.0\Enums.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Enums\bin\Debug\net8.0\Enums.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Enums\bin\Debug\net8.0\Enums.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Enums\bin\Debug\net8.0\Enums.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Enums\obj\Debug\net8.0\Enums.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Enums\obj\Debug\net8.0\refint\Enums.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Enums\obj\Debug\net8.0\Enums.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Enums\obj\Debug\net8.0\Enums.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Enums\obj\Debug\net8.0\ref\Enums.dll

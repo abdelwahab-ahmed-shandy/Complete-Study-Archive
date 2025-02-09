@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\All Problem\bin\Debug\net8.0\All Problem.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\All Problem\bin\Debug\net8.0\All Problem.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\All Problem\bin\Debug\net8.0\All Problem.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\All Problem\bin\Debug\net8.0\All Problem.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\All Problem\bin\Debug\net8.0\All Problem.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\All Problem\obj\Debug\net8.0\All Problem.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\All Problem\obj\Debug\net8.0\All Problem.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\All Problem\obj\Debug\net8.0\All Problem.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\All Problem\obj\Debug\net8.0\All Problem.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\All Problem\obj\Debug\net8.0\All Problem.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\All Problem\obj\Debug\net8.0\refint\All Problem.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\All Problem\obj\Debug\net8.0\All Problem.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\All Problem\obj\Debug\net8.0\All Problem.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\All Problem\obj\Debug\net8.0\ref\All Problem.dll

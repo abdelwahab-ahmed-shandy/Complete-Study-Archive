@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\Foreach loop\bin\Debug\net8.0\Foreach loop.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\Foreach loop\bin\Debug\net8.0\Foreach loop.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Foreach loop\bin\Debug\net8.0\Foreach loop.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Foreach loop\bin\Debug\net8.0\Foreach loop.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Foreach loop\bin\Debug\net8.0\Foreach loop.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Foreach loop\obj\Debug\net8.0\Foreach loop.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\Foreach loop\obj\Debug\net8.0\Foreach loop.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Foreach loop\obj\Debug\net8.0\Foreach loop.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\Foreach loop\obj\Debug\net8.0\Foreach loop.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Foreach loop\obj\Debug\net8.0\Foreach loop.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Foreach loop\obj\Debug\net8.0\refint\Foreach loop.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Foreach loop\obj\Debug\net8.0\Foreach loop.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Foreach loop\obj\Debug\net8.0\Foreach loop.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Foreach loop\obj\Debug\net8.0\ref\Foreach loop.dll

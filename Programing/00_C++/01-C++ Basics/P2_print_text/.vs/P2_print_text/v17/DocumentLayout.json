@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\1_Programming\\1_C\u002B\u002B\\P2_print_text\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC188A13-8D36-4534-A697-CE16383DC0CF}|P2_print_text\\P2_print_text.vcxproj|E:\\1_Programming\\1_C\u002B\u002B\\P2_print_text\\P2_print_text\\P2_print_text.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC188A13-8D36-4534-A697-CE16383DC0CF}|P2_print_text\\P2_print_text.vcxproj|solutionrelative:P2_print_text\\P2_print_text.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "P2_print_text.cpp",
+              "DocumentMoniker": "E:\\1_Programming\\1_C\u002B\u002B\\P2_print_text\\P2_print_text\\P2_print_text.cpp",
+              "RelativeDocumentMoniker": "P2_print_text\\P2_print_text.cpp",
+              "ToolTip": "E:\\1_Programming\\1_C\u002B\u002B\\P2_print_text\\P2_print_text\\P2_print_text.cpp",
+              "RelativeToolTip": "P2_print_text\\P2_print_text.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-02T17:50:38.319Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

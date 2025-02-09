@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\Numeric Data type\bin\Debug\net8.0\Numeric Data type.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\Numeric Data type\bin\Debug\net8.0\Numeric Data type.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Numeric Data type\bin\Debug\net8.0\Numeric Data type.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Numeric Data type\bin\Debug\net8.0\Numeric Data type.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Numeric Data type\bin\Debug\net8.0\Numeric Data type.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Numeric Data type\obj\Debug\net8.0\Numeric Data type.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\Numeric Data type\obj\Debug\net8.0\Numeric Data type.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Numeric Data type\obj\Debug\net8.0\Numeric Data type.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\Numeric Data type\obj\Debug\net8.0\Numeric Data type.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Numeric Data type\obj\Debug\net8.0\Numeric Data type.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Numeric Data type\obj\Debug\net8.0\refint\Numeric Data type.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Numeric Data type\obj\Debug\net8.0\Numeric Data type.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Numeric Data type\obj\Debug\net8.0\Numeric Data type.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Numeric Data type\obj\Debug\net8.0\ref\Numeric Data type.dll

@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\1_Programming\\MY With C#\\CSharpFundamentals\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{968D087B-ACE3-45A6-B84C-E1A8AAD312B8}|All Problem\\All Problem.csproj|e:\\1_programming\\my with c#\\csharpfundamentals\\all problem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968D087B-ACE3-45A6-B84C-E1A8AAD312B8}|All Problem\\All Problem.csproj|solutionrelative:all problem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25AEF46D-6978-451F-B041-433A61418BCE}|Enums\\Enums.csproj|e:\\1_programming\\my with c#\\csharpfundamentals\\enums\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25AEF46D-6978-451F-B041-433A61418BCE}|Enums\\Enums.csproj|solutionrelative:enums\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\1_Programming\\MY With C#\\CSharpFundamentals\\All Problem\\Program.cs",
+              "RelativeDocumentMoniker": "All Problem\\Program.cs",
+              "ToolTip": "E:\\1_Programming\\MY With C#\\CSharpFundamentals\\All Problem\\Program.cs",
+              "RelativeToolTip": "All Problem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T19:33:16.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\1_Programming\\MY With C#\\CSharpFundamentals\\Enums\\Program.cs",
+              "RelativeDocumentMoniker": "Enums\\Program.cs",
+              "ToolTip": "E:\\1_Programming\\MY With C#\\CSharpFundamentals\\Enums\\Program.cs",
+              "RelativeToolTip": "Enums\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:49:00.804Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

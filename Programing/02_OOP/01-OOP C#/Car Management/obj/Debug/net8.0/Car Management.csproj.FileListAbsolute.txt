@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\OOP C#\Car Management\bin\Debug\net8.0\Car Management.exe
+E:\1_Programming\MY With C#\OOP C#\Car Management\bin\Debug\net8.0\Car Management.deps.json
+E:\1_Programming\MY With C#\OOP C#\Car Management\bin\Debug\net8.0\Car Management.runtimeconfig.json
+E:\1_Programming\MY With C#\OOP C#\Car Management\bin\Debug\net8.0\Car Management.dll
+E:\1_Programming\MY With C#\OOP C#\Car Management\bin\Debug\net8.0\Car Management.pdb
+E:\1_Programming\MY With C#\OOP C#\Car Management\obj\Debug\net8.0\Car Management.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\OOP C#\Car Management\obj\Debug\net8.0\Car Management.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\OOP C#\Car Management\obj\Debug\net8.0\Car Management.AssemblyInfo.cs
+E:\1_Programming\MY With C#\OOP C#\Car Management\obj\Debug\net8.0\Car Management.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\OOP C#\Car Management\obj\Debug\net8.0\Car Management.dll
+E:\1_Programming\MY With C#\OOP C#\Car Management\obj\Debug\net8.0\refint\Car Management.dll
+E:\1_Programming\MY With C#\OOP C#\Car Management\obj\Debug\net8.0\Car Management.pdb
+E:\1_Programming\MY With C#\OOP C#\Car Management\obj\Debug\net8.0\Car Management.genruntimeconfig.cache
+E:\1_Programming\MY With C#\OOP C#\Car Management\obj\Debug\net8.0\ref\Car Management.dll

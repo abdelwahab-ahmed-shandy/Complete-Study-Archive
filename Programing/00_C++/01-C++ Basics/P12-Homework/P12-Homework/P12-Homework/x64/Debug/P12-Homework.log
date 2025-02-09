@@ -1,0 +1,4 @@
+﻿  P12-Homework.cpp
+E:\1_Programming\1_C++\P12-Homework\P12-Homework\P12-Homework.cpp(26,11): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\1_Programming\1_C++\P12-Homework\P12-Homework\P12-Homework.cpp(38,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  P12-Homework.vcxproj -> E:\1_Programming\1_C++\P12-Homework\P12-Homework\x64\Debug\P12-Homework.exe

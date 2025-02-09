@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\Arithmetic Operators\bin\Debug\net8.0\Arithmetic Operators.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\Arithmetic Operators\bin\Debug\net8.0\Arithmetic Operators.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Arithmetic Operators\bin\Debug\net8.0\Arithmetic Operators.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Arithmetic Operators\bin\Debug\net8.0\Arithmetic Operators.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Arithmetic Operators\bin\Debug\net8.0\Arithmetic Operators.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Arithmetic Operators\obj\Debug\net8.0\Arithmetic Operators.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\Arithmetic Operators\obj\Debug\net8.0\Arithmetic Operators.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Arithmetic Operators\obj\Debug\net8.0\Arithmetic Operators.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\Arithmetic Operators\obj\Debug\net8.0\Arithmetic Operators.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Arithmetic Operators\obj\Debug\net8.0\Arithmetic Operators.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Arithmetic Operators\obj\Debug\net8.0\refint\Arithmetic Operators.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Arithmetic Operators\obj\Debug\net8.0\Arithmetic Operators.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Arithmetic Operators\obj\Debug\net8.0\Arithmetic Operators.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Arithmetic Operators\obj\Debug\net8.0\ref\Arithmetic Operators.dll

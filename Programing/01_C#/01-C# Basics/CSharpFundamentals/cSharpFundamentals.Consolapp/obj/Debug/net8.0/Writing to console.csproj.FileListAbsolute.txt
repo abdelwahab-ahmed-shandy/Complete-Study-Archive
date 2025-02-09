@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\cSharpFundamentals.Consolapp\bin\Debug\net8.0\Writing to console.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\cSharpFundamentals.Consolapp\bin\Debug\net8.0\Writing to console.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\cSharpFundamentals.Consolapp\bin\Debug\net8.0\Writing to console.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\cSharpFundamentals.Consolapp\bin\Debug\net8.0\Writing to console.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\cSharpFundamentals.Consolapp\bin\Debug\net8.0\Writing to console.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\cSharpFundamentals.Consolapp\obj\Debug\net8.0\Writing to console.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\cSharpFundamentals.Consolapp\obj\Debug\net8.0\Writing to console.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\cSharpFundamentals.Consolapp\obj\Debug\net8.0\Writing to console.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\cSharpFundamentals.Consolapp\obj\Debug\net8.0\Writing to console.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\cSharpFundamentals.Consolapp\obj\Debug\net8.0\Writing to console.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\cSharpFundamentals.Consolapp\obj\Debug\net8.0\refint\Writing to console.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\cSharpFundamentals.Consolapp\obj\Debug\net8.0\Writing to console.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\cSharpFundamentals.Consolapp\obj\Debug\net8.0\Writing to console.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\cSharpFundamentals.Consolapp\obj\Debug\net8.0\ref\Writing to console.dll

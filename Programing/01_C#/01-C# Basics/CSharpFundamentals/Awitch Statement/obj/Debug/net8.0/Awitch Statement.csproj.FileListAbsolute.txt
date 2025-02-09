@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\Awitch Statement\bin\Debug\net8.0\Awitch Statement.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\Awitch Statement\bin\Debug\net8.0\Awitch Statement.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Awitch Statement\bin\Debug\net8.0\Awitch Statement.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Awitch Statement\bin\Debug\net8.0\Awitch Statement.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Awitch Statement\bin\Debug\net8.0\Awitch Statement.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Awitch Statement\obj\Debug\net8.0\Awitch Statement.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\Awitch Statement\obj\Debug\net8.0\Awitch Statement.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Awitch Statement\obj\Debug\net8.0\Awitch Statement.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\Awitch Statement\obj\Debug\net8.0\Awitch Statement.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Awitch Statement\obj\Debug\net8.0\Awitch Statement.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Awitch Statement\obj\Debug\net8.0\refint\Awitch Statement.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Awitch Statement\obj\Debug\net8.0\Awitch Statement.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Awitch Statement\obj\Debug\net8.0\Awitch Statement.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Awitch Statement\obj\Debug\net8.0\ref\Awitch Statement.dll

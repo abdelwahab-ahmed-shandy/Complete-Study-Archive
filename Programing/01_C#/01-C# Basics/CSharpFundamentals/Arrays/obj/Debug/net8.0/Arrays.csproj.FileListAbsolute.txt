@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\Arrays\bin\Debug\net8.0\Arrays.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\Arrays\bin\Debug\net8.0\Arrays.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Arrays\bin\Debug\net8.0\Arrays.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Arrays\bin\Debug\net8.0\Arrays.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Arrays\bin\Debug\net8.0\Arrays.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Arrays\obj\Debug\net8.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\Arrays\obj\Debug\net8.0\Arrays.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Arrays\obj\Debug\net8.0\Arrays.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\Arrays\obj\Debug\net8.0\Arrays.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Arrays\obj\Debug\net8.0\Arrays.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Arrays\obj\Debug\net8.0\refint\Arrays.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Arrays\obj\Debug\net8.0\Arrays.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Arrays\obj\Debug\net8.0\Arrays.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Arrays\obj\Debug\net8.0\ref\Arrays.dll

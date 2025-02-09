@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\OOP C#\Student Data Management\bin\Debug\net8.0\Student Data Management.exe
+E:\1_Programming\MY With C#\OOP C#\Student Data Management\bin\Debug\net8.0\Student Data Management.deps.json
+E:\1_Programming\MY With C#\OOP C#\Student Data Management\bin\Debug\net8.0\Student Data Management.runtimeconfig.json
+E:\1_Programming\MY With C#\OOP C#\Student Data Management\bin\Debug\net8.0\Student Data Management.dll
+E:\1_Programming\MY With C#\OOP C#\Student Data Management\bin\Debug\net8.0\Student Data Management.pdb
+E:\1_Programming\MY With C#\OOP C#\Student Data Management\obj\Debug\net8.0\Student Data Management.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\OOP C#\Student Data Management\obj\Debug\net8.0\Student Data Management.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\OOP C#\Student Data Management\obj\Debug\net8.0\Student Data Management.AssemblyInfo.cs
+E:\1_Programming\MY With C#\OOP C#\Student Data Management\obj\Debug\net8.0\Student Data Management.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\OOP C#\Student Data Management\obj\Debug\net8.0\Student Data Management.dll
+E:\1_Programming\MY With C#\OOP C#\Student Data Management\obj\Debug\net8.0\refint\Student Data Management.dll
+E:\1_Programming\MY With C#\OOP C#\Student Data Management\obj\Debug\net8.0\Student Data Management.pdb
+E:\1_Programming\MY With C#\OOP C#\Student Data Management\obj\Debug\net8.0\Student Data Management.genruntimeconfig.cache
+E:\1_Programming\MY With C#\OOP C#\Student Data Management\obj\Debug\net8.0\ref\Student Data Management.dll

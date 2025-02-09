@@ -1,0 +1,4 @@
+﻿  P12_Data type conversion.cpp
+E:\1_Programming\1_C++\P12_Data type conversion\P12_Data type conversion\P12_Data type conversion.cpp(11,9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\1_Programming\1_C++\P12_Data type conversion\P12_Data type conversion\P12_Data type conversion.cpp(35,16): warning C4305: 'initializing': truncation from 'double' to 'float'
+  P12_Data type conversion.vcxproj -> E:\1_Programming\1_C++\P12_Data type conversion\P12_Data type conversion\x64\Debug\P12_Data type conversion.exe

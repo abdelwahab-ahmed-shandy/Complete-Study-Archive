@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\Namespace\bin\Debug\net8.0\Namespace.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\Namespace\bin\Debug\net8.0\Namespace.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Namespace\bin\Debug\net8.0\Namespace.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Namespace\bin\Debug\net8.0\Namespace.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Namespace\bin\Debug\net8.0\Namespace.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Namespace\obj\Debug\net8.0\Namespace.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\Namespace\obj\Debug\net8.0\Namespace.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Namespace\obj\Debug\net8.0\Namespace.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\Namespace\obj\Debug\net8.0\Namespace.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Namespace\obj\Debug\net8.0\Namespace.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Namespace\obj\Debug\net8.0\refint\Namespace.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Namespace\obj\Debug\net8.0\Namespace.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Namespace\obj\Debug\net8.0\Namespace.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Namespace\obj\Debug\net8.0\ref\Namespace.dll

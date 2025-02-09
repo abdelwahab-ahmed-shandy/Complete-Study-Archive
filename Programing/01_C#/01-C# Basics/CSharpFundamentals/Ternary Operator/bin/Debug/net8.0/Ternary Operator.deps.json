@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ternary Operator/1.0.0": {
+        "runtime": {
+          "Ternary Operator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ternary Operator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

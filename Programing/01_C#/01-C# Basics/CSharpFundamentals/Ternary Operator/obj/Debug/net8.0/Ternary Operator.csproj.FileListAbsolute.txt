@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\Ternary Operator\bin\Debug\net8.0\Ternary Operator.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\Ternary Operator\bin\Debug\net8.0\Ternary Operator.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Ternary Operator\bin\Debug\net8.0\Ternary Operator.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Ternary Operator\bin\Debug\net8.0\Ternary Operator.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Ternary Operator\bin\Debug\net8.0\Ternary Operator.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Ternary Operator\obj\Debug\net8.0\Ternary Operator.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\Ternary Operator\obj\Debug\net8.0\Ternary Operator.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Ternary Operator\obj\Debug\net8.0\Ternary Operator.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\Ternary Operator\obj\Debug\net8.0\Ternary Operator.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Ternary Operator\obj\Debug\net8.0\Ternary Operator.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Ternary Operator\obj\Debug\net8.0\refint\Ternary Operator.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Ternary Operator\obj\Debug\net8.0\Ternary Operator.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Ternary Operator\obj\Debug\net8.0\Ternary Operator.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Ternary Operator\obj\Debug\net8.0\ref\Ternary Operator.dll

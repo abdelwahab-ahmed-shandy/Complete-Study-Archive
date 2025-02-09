@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\Properties\bin\Debug\net8.0\Properties.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\Properties\bin\Debug\net8.0\Properties.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Properties\bin\Debug\net8.0\Properties.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Properties\bin\Debug\net8.0\Properties.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Properties\bin\Debug\net8.0\Properties.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Properties\obj\Debug\net8.0\Properties.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\Properties\obj\Debug\net8.0\Properties.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Properties\obj\Debug\net8.0\Properties.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\Properties\obj\Debug\net8.0\Properties.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Properties\obj\Debug\net8.0\Properties.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Properties\obj\Debug\net8.0\refint\Properties.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Properties\obj\Debug\net8.0\Properties.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Properties\obj\Debug\net8.0\Properties.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Properties\obj\Debug\net8.0\ref\Properties.dll

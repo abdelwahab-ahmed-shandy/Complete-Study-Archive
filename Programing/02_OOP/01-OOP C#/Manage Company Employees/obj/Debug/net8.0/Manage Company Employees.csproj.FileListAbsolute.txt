@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\OOP C#\Manage Company Employees\bin\Debug\net8.0\Manage Company Employees.exe
+E:\1_Programming\MY With C#\OOP C#\Manage Company Employees\bin\Debug\net8.0\Manage Company Employees.deps.json
+E:\1_Programming\MY With C#\OOP C#\Manage Company Employees\bin\Debug\net8.0\Manage Company Employees.runtimeconfig.json
+E:\1_Programming\MY With C#\OOP C#\Manage Company Employees\bin\Debug\net8.0\Manage Company Employees.dll
+E:\1_Programming\MY With C#\OOP C#\Manage Company Employees\bin\Debug\net8.0\Manage Company Employees.pdb
+E:\1_Programming\MY With C#\OOP C#\Manage Company Employees\obj\Debug\net8.0\Manage Company Employees.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\OOP C#\Manage Company Employees\obj\Debug\net8.0\Manage Company Employees.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\OOP C#\Manage Company Employees\obj\Debug\net8.0\Manage Company Employees.AssemblyInfo.cs
+E:\1_Programming\MY With C#\OOP C#\Manage Company Employees\obj\Debug\net8.0\Manage Company Employees.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\OOP C#\Manage Company Employees\obj\Debug\net8.0\Manage Company Employees.dll
+E:\1_Programming\MY With C#\OOP C#\Manage Company Employees\obj\Debug\net8.0\refint\Manage Company Employees.dll
+E:\1_Programming\MY With C#\OOP C#\Manage Company Employees\obj\Debug\net8.0\Manage Company Employees.pdb
+E:\1_Programming\MY With C#\OOP C#\Manage Company Employees\obj\Debug\net8.0\Manage Company Employees.genruntimeconfig.cache
+E:\1_Programming\MY With C#\OOP C#\Manage Company Employees\obj\Debug\net8.0\ref\Manage Company Employees.dll

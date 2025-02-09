@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\For Loop\bin\Debug\net8.0\For Loop.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\For Loop\bin\Debug\net8.0\For Loop.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\For Loop\bin\Debug\net8.0\For Loop.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\For Loop\bin\Debug\net8.0\For Loop.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\For Loop\bin\Debug\net8.0\For Loop.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\For Loop\obj\Debug\net8.0\For Loop.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\For Loop\obj\Debug\net8.0\For Loop.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\For Loop\obj\Debug\net8.0\For Loop.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\For Loop\obj\Debug\net8.0\For Loop.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\For Loop\obj\Debug\net8.0\For Loop.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\For Loop\obj\Debug\net8.0\refint\For Loop.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\For Loop\obj\Debug\net8.0\For Loop.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\For Loop\obj\Debug\net8.0\For Loop.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\For Loop\obj\Debug\net8.0\ref\For Loop.dll

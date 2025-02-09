@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\CSharpFundamentals\Class & Object\bin\Debug\net8.0\Class & Object.exe
+E:\1_Programming\MY With C#\CSharpFundamentals\Class & Object\bin\Debug\net8.0\Class & Object.deps.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Class & Object\bin\Debug\net8.0\Class & Object.runtimeconfig.json
+E:\1_Programming\MY With C#\CSharpFundamentals\Class & Object\bin\Debug\net8.0\Class & Object.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Class & Object\bin\Debug\net8.0\Class & Object.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Class & Object\obj\Debug\net8.0\Class & Object.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\CSharpFundamentals\Class & Object\obj\Debug\net8.0\Class & Object.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Class & Object\obj\Debug\net8.0\Class & Object.AssemblyInfo.cs
+E:\1_Programming\MY With C#\CSharpFundamentals\Class & Object\obj\Debug\net8.0\Class & Object.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Class & Object\obj\Debug\net8.0\Class & Object.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Class & Object\obj\Debug\net8.0\refint\Class & Object.dll
+E:\1_Programming\MY With C#\CSharpFundamentals\Class & Object\obj\Debug\net8.0\Class & Object.pdb
+E:\1_Programming\MY With C#\CSharpFundamentals\Class & Object\obj\Debug\net8.0\Class & Object.genruntimeconfig.cache
+E:\1_Programming\MY With C#\CSharpFundamentals\Class & Object\obj\Debug\net8.0\ref\Class & Object.dll

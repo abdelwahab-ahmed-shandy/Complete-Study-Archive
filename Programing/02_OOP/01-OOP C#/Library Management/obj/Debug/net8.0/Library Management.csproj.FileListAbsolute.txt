@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\OOP C#\Library Management\bin\Debug\net8.0\Library Management.exe
+E:\1_Programming\MY With C#\OOP C#\Library Management\bin\Debug\net8.0\Library Management.deps.json
+E:\1_Programming\MY With C#\OOP C#\Library Management\bin\Debug\net8.0\Library Management.runtimeconfig.json
+E:\1_Programming\MY With C#\OOP C#\Library Management\bin\Debug\net8.0\Library Management.dll
+E:\1_Programming\MY With C#\OOP C#\Library Management\bin\Debug\net8.0\Library Management.pdb
+E:\1_Programming\MY With C#\OOP C#\Library Management\obj\Debug\net8.0\Library Management.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\OOP C#\Library Management\obj\Debug\net8.0\Library Management.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\OOP C#\Library Management\obj\Debug\net8.0\Library Management.AssemblyInfo.cs
+E:\1_Programming\MY With C#\OOP C#\Library Management\obj\Debug\net8.0\Library Management.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\OOP C#\Library Management\obj\Debug\net8.0\Library Management.dll
+E:\1_Programming\MY With C#\OOP C#\Library Management\obj\Debug\net8.0\refint\Library Management.dll
+E:\1_Programming\MY With C#\OOP C#\Library Management\obj\Debug\net8.0\Library Management.pdb
+E:\1_Programming\MY With C#\OOP C#\Library Management\obj\Debug\net8.0\Library Management.genruntimeconfig.cache
+E:\1_Programming\MY With C#\OOP C#\Library Management\obj\Debug\net8.0\ref\Library Management.dll

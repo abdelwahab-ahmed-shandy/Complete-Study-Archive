@@ -1,0 +1,14 @@
+E:\1_Programming\MY With C#\OOP C#\Inheritance with Customization\bin\Debug\net8.0\Inheritance with Customization.exe
+E:\1_Programming\MY With C#\OOP C#\Inheritance with Customization\bin\Debug\net8.0\Inheritance with Customization.deps.json
+E:\1_Programming\MY With C#\OOP C#\Inheritance with Customization\bin\Debug\net8.0\Inheritance with Customization.runtimeconfig.json
+E:\1_Programming\MY With C#\OOP C#\Inheritance with Customization\bin\Debug\net8.0\Inheritance with Customization.dll
+E:\1_Programming\MY With C#\OOP C#\Inheritance with Customization\bin\Debug\net8.0\Inheritance with Customization.pdb
+E:\1_Programming\MY With C#\OOP C#\Inheritance with Customization\obj\Debug\net8.0\Inheritance with Customization.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\MY With C#\OOP C#\Inheritance with Customization\obj\Debug\net8.0\Inheritance with Customization.AssemblyInfoInputs.cache
+E:\1_Programming\MY With C#\OOP C#\Inheritance with Customization\obj\Debug\net8.0\Inheritance with Customization.AssemblyInfo.cs
+E:\1_Programming\MY With C#\OOP C#\Inheritance with Customization\obj\Debug\net8.0\Inheritance with Customization.csproj.CoreCompileInputs.cache
+E:\1_Programming\MY With C#\OOP C#\Inheritance with Customization\obj\Debug\net8.0\Inheritance with Customization.dll
+E:\1_Programming\MY With C#\OOP C#\Inheritance with Customization\obj\Debug\net8.0\refint\Inheritance with Customization.dll
+E:\1_Programming\MY With C#\OOP C#\Inheritance with Customization\obj\Debug\net8.0\Inheritance with Customization.pdb
+E:\1_Programming\MY With C#\OOP C#\Inheritance with Customization\obj\Debug\net8.0\Inheritance with Customization.genruntimeconfig.cache
+E:\1_Programming\MY With C#\OOP C#\Inheritance with Customization\obj\Debug\net8.0\ref\Inheritance with Customization.dll

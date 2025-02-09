@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Numeric Data type/1.0.0": {
+        "runtime": {
+          "Numeric Data type.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Numeric Data type/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
