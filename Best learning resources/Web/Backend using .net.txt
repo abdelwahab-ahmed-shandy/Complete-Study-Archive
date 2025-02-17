@@ -74,7 +74,8 @@ EF وLinq :
 https://www.youtube.com/playlist?list=PL62tSREI9C-cHV28v-EqWinveTTAos8Pp
 
 MVC :
-https://www.youtube.com/playlist?list=PL62tSREI9C-cQ21T5HIWqqBOHQiNMOhBG
+The Best : 
+https://itlegend.net/CourseDetails/CourseDetails/3447ff38-1809-4495-bfbd-6a3da119ca0a
 
 ASP.NET Core للمبتدئين :
 https://www.youtube.com/playlist?list=PLsV97AQt78NQ8E7cEqovH0zLYRJgJahGh
