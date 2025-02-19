@@ -148,7 +148,13 @@ app.UseEndpoints(endpoints =>
 💡 النتيجة النهائية
 بعد تنفيذ هذه الخطوات، سيكون مشروعك مُهيّأ للعمل بنمط MVC، مما يسمح له بمعالجة الطلبات باستخدام Controllers و Views بسلاسة. 
 
+	
 // =============================================================================
+// =============================================================================
+// =============================================================================
+////هذه الجزئيه يمكنك الرجوع الى المرجع الاصلي لها عن طريق هذا اللينك
+//
+	
 Install Package EntityFrameworkCore :
 
 // لإدارة قواعد البيانات باستخدام نهج الـ ORM (Object-Relational Mapping) :
@@ -162,6 +168,44 @@ Install-Package Microsoft.EntityFrameworkCore.Proxies -Version 8.0.12
 
 //استخدم الأمر التالي لعرض قائمة الحزم المثبتة:
 Get-Package
+
+// =============================================================================
+// =============================================================================
+// =============================================================================
+
+// Code-First
+"Data Source=.;Initial Catalog=DbName;Integrated Security=True;TrustServerCertificate=True"
+
+// Database-First Approach (Scaffolding)
+
+Scaffold-DbContext 'Data Source=.;Initial Catalog=D;Integrated Security=True;TrustServerCertificate=True' Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Models -Context CarRentalDbContext
+
+// =============================================================================
+// =============================================================================
+// =============================================================================
+
+// After finishing creating the files, classes and connections, we will now create the three actual bases, 
+// so before that we have to create some migrations in which we can see the complete data base before creating it,
+// so here are some commands that will help you in this matter
+
+Migrations :
+===============
+
+Add-Migration CommentwithMirgration // يُستخدم هذا الأمر لإضافة ترحيل جديد باسم AddNewTables
+
+Update-DataBase // يُحدث قاعدة البيانات لتتماشى مع أحدث ترحيل
+
+Remove-Migration //يزيل آخر ترحيل تم إنشاؤه
+
+Script-Migration // يُستخدم لإنشاء سكربت SQL يعكس التغييرات بين هجرتين في Entity Framework Core
+
+Script-Migration AddNewTables //يُنشئ سكريبت SQL يبدأ من ترحيل معين (AddNewTables) وينتهي بأحدث ترحيل
+
+Script-Migration AddNewTables AddAuditTable // يُنشئ سكريبت SQL يبدأ من ترحيل محدد (AddNewTables) وينتهي بترحيل آخر (AddAuditTable)
+
+Get-Migration // يُعرض قائمة بجميع الترحيلات التي تم إنشاؤها 
+
+Get-Package  //  استخدم الأمر التالي لعرض قائمة الحزم المثبتة
 
 //==========================================================================================================================
 //==========================================================================================================================
