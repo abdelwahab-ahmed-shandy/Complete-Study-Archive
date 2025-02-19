@@ -153,7 +153,7 @@ app.UseEndpoints(endpoints =>
 // =============================================================================
 // =============================================================================
 ////هذه الجزئيه يمكنك الرجوع الى المرجع الاصلي لها عن طريق هذا اللينك
-//
+// https://github.com/abdelwahab-ahmed-shandy/My-Study-Archive/tree/main/DotNet-Core-Notes/EF-LINQ-Notes
 	
 Install Package EntityFrameworkCore :
 
