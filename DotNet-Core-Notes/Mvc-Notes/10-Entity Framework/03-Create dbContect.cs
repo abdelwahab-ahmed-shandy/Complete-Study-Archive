@@ -104,7 +104,7 @@ var app = builder.Build();
 
 -----------------------------------------------------------------------------------------------------------------
 "ConnectionStrings": {
-    "DefaultConnection": "Server=.;Database=MyDatabase;Trusted_Connection=True;MultipleActiveResultSets=true"
+    "DefaultConnection": "Data Source=.;Initial Catalog=Database-Name;Integrated Security=True;TrustServerCertificate=True"
 }
 ------------------------------------------------------------------------------------------------------------------
 
@@ -124,8 +124,8 @@ Add-Migration InitialCreate   |
 Update-Database               |
 ------------------------------
 
-✔ Add-Migration InitialCreate: ينشئ ملف Migration يحتوي على التعليمات البرمجية اللازمة لإنشاء الجداول.
-✔ Update-Database: ينفذ Migration ويقوم بإنشاء الجداول في قاعدة البيانات.
+✔ Add-Migration InitialCreate  : ينشئ ملف Migration يحتوي على التعليمات البرمجية اللازمة لإنشاء الجداول.
+✔ Update-Database  : ينفذ Migration ويقوم بإنشاء الجداول في قاعدة البيانات.
 
 //=========================================================================================================================================
 

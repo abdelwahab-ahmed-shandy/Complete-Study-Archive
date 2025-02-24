@@ -14,4 +14,4 @@ Integrated Security=True;TrustServerCertificate=True'
 
 // This is Scaffold With DataBase :
 
-Scaffold-DbContext 'Data Source=.;Initial Catalog=P4 - Car Rental;Integrated Security=True;TrustServerCertificate=True' Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Models -Context CarRentalDbContext
+Scaffold-DbContext 'Data Source=.;Initial Catalog=QuickTickets-DB;Integrated Security=True;TrustServerCertificate=True' Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Models -Context ApplicationDbContext
