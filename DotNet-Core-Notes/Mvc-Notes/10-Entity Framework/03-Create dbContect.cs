@@ -54,6 +54,20 @@ namespace YourProjectNamespace.Data // استبدل YourProjectNamespace باس�
         // تعريف الجداول (Entities)
         public DbSet<User> Users { get; set; } // جدول المستخدمين
         public DbSet<Product> Products { get; set; } // جدول المنتجات
+		
+		
+		 // ضبط القواعد الافتراضية لجميع الكيانات باستخدام ConfigureConventions (متاح في EF Core 7+)
+        protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
+        {
+            base.ConfigureConventions(configurationBuilder);
+
+            // تحديد الحد الأقصى لجميع الحقول النصية ليكون 255 حرفًا
+            configurationBuilder.Properties<string>().HaveMaxLength(255);
+
+            // ضبط الدقة الافتراضية لجميع الحقول من نوع decimal
+            configurationBuilder.Properties<decimal>().HavePrecision(18, 2);
+        }
+		
     }
 }
 
