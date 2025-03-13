@@ -1,0 +1,20 @@
+
+// إنشاء اسم فريد للملف المرفوع
+
+var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+
+/*
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
