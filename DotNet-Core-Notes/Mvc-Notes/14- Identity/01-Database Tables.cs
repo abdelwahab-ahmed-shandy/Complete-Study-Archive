@@ -1,6 +1,7 @@
+// ما بعد عمل Migration و Update-Database 
 /*
 =============================================================
-                📌 ASP.NET Identity - Summary
+                📌 ASP.NET Identity - Database Tables Summary
 =============================================================
 */
 
