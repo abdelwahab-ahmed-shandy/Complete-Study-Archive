@@ -1,28 +1,26 @@
 // 1- Install Packet Identity 
 
-/*لتثبيت حزمة Microsoft.EntityFrameworkCore الإصدار 8.0.12 في مشروع .NET الخاص بك، يمكنك استخدام وحدة تحكم إدارة الحزم NuGet في Visual Studio أو واجهة سطر أوامر .NET في الطرفية.
+/*
+لتثبيت حزمة Microsoft.EntityFrameworkCore.NET الخاص بك، يمكنك استخدام إحدى الطريقتين:
 
-الخيار 1: استخدام وحدة تحكم إدارة الحزم NuGet
-افتح Visual Studio.
-
-انتقل إلى الأدوات > إدارة الحزم NuGet > وحدة تحكم إدارة الحزم.
-
-نفّذ الأمر التالي:
+الخيار 1: استخدام وحدة تحكم إدارة الحزم NuGet في Visual Studio:
+1. افتح Visual Studio.
+2. انتقل إلى "الأدوات" > "إدارة الحزم NuGet" > "وحدة تحكم إدارة الحزم".
+3. نفّذ الأمر التالي:
 */
-
 Install-Package Microsoft.EntityFrameworkCore -Version 8.0.12
 
+// للتحقق من الحزمة المثبتة
 Get-Package 
-  
+
 //====================================================================================================================
-//====================================================================================================================
-// 2- modify Entity Framework 
+// 2- تعديل Entity Framework لدعم الهوية (Identity)
+
 /*
-  1. تعديل الفئة DbContext لترث من IdentityDbContext
-بدلاً من أن ترث من DbContext، قم بتعديل الفئة لترث من IdentityDbContext مع تحديد فئة المستخدم (ApplicationUser) التي ترث من IdentityUser.
+  1. تعديل الفئة DbContext لترث من IdentityDbContext بدلاً من DbContext، وذلك لتمكين ASP.NET Identity.
+     - يجب تحديد فئة المستخدم المخصصة (ApplicationUser) التي ترث من IdentityUser لإضافة حقول إضافية إذا لزم الأمر.
 */
 
-//------------------------------------------------------------------------------------
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -33,86 +31,95 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
     }
 
-    // إضافة DbSet للكيانات الأخرى (اختياري)
+    // إضافة DbSet للكيانات الأخرى (إذا لزم الأمر)
     public DbSet<MyEntity> MyEntities { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        base.OnModelCreating(modelBuilder); // ضروري لإعداد جداول Identity
-
-        // إعدادات إضافية للكيانات الأخرى (اختياري)
+        base.OnModelCreating(modelBuilder); // ضروري لضبط جداول Identity
+        
+        // إعداد جدول الكيان الإضافي (اختياري)
         modelBuilder.Entity<MyEntity>().ToTable("MyEntities");
     }
 }
-//------------------------------------------------------------------------------------
 
 /*
 2. إنشاء فئة المستخدم (ApplicationUser)
-إذا لم تكن قد قمت بإنشائها بعد، قم بإنشاء فئة المستخدم التي ترث من IdentityUser. يمكنك إضافة خصائص مخصصة إذا لزم الأمر.
+   - إذا كنت بحاجة إلى إضافة خصائص إضافية مثل الاسم الكامل أو تاريخ الميلاد، يمكنك تعريفها هنا.
 */
 
-//------------------------------------------------------------------------------------
 using Microsoft.AspNetCore.Identity;
 
 public class ApplicationUser : IdentityUser
 {
-    // إضافة خصائص مخصصة (اختياري)
-    public string FullName { get; set; }
-    public DateTime DateOfBirth { get; set; }
+    public string FullName { get; set; } // حقل اختياري للاسم الكامل
+    public DateTime DateOfBirth { get; set; } // حقل اختياري لتاريخ الميلاد
 }
-//------------------------------------------------------------------------------------
-
 
 //====================================================================================================================
-//====================================================================================================================
-// 3 - Edit Program.cs to add Identity
+// 3 - تعديل Program.cs لإضافة خدمات الهوية (Identity)
 
 /*
-تعديل Program.cs لإضافة Identity
-قم بتسجيل ApplicationDbContext وخدمات Identity في حاوية الاعتمادية (Dependency Injection).
+قم بتسجيل ApplicationDbContext وخدمات Identity في حاوية الاعتمادية (Dependency Injection) داخل Program.cs
 */
 
-//------------------------------------------------------------------------------------
-//using Microsoft.AspNetCore.Identity;
-//using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
-//var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args);
 
-// إعدادات قاعدة البيانات
-//var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+// إعداد اتصال قاعدة البيانات
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-// إضافة Identity
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDbContext>()
-    .AddDefaultTokenProviders();
+// إضافة خدمات الهوية (Identity)
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+{
+    // إعدادات كلمة المرور
+    options.Password.RequireUppercase = true; // يجب أن تحتوي كلمة المرور على حرف كبير على الأقل
+    options.Password.RequireNonAlphanumeric = true; // يجب أن تحتوي كلمة المرور على رمز خاص (@، #، !، إلخ)
+    options.Password.RequiredLength = 8; // الحد الأدنى للطول 8 أحرف
 
-// إضافة خدمات التحكم والعرض
-//builder.Services.AddControllersWithViews();
+    // إعدادات المستخدم
+    options.User.RequireUniqueEmail = true; // يجب أن يكون البريد الإلكتروني فريدًا لكل مستخدم
+})
+.AddEntityFrameworkStores<ApplicationDbContext>() // ربط الهوية بقاعدة البيانات باستخدام EF Core
+.AddDefaultTokenProviders(); // تفعيل مزودات التوكن لدعم إعادة تعيين كلمة المرور وتأكيد البريد الإلكتروني
 
-//var app = builder.Build();
+// إضافة خدمات MVC
+builder.Services.AddControllersWithViews();
 
-// تكوين خطوط HTTP
-//if (!app.Environment.IsDevelopment())
-//{
-  //  app.UseExceptionHandler("/Home/Error");
-  //  app.UseHsts();
-//}
+var app = builder.Build();
 
-//app.UseHttpsRedirection();
-//app.UseStaticFiles();
+// إعداد خطوط الـ HTTP
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
+}
 
-//app.UseRouting();
+app.UseHttpsRedirection();
+app.UseStaticFiles();
 
-app.UseAuthentication(); // تمكين المصادقة
-app.UseAuthorization();  // تمكين التفويض
+app.UseRouting();
 
-//app.MapControllerRoute(
-  //  name: "default",
-  //  pattern: "{controller=Home}/{action=Index}/{id?}");
+app.UseAuthentication(); // تفعيل المصادقة
+app.UseAuthorization();  // تفعيل التفويض
 
-//app.Run();
-//------------------------------------------------------------------------------------
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
+app.Run();
 
+//====================================================================================================================
+// 4 - إنشاء الجداول في قاعدة البيانات عبر Migrations
+
+/*
+لإنشاء الجداول المطلوبة من قبل ASP.NET Identity، استخدم الأوامر التالية في وحدة التحكم Package Manager Console:
+*/
+
+Add-Migration AddIdentityTables // إنشاء الترحيل الأولي (Migration) لإضافة جداول الهوية
+
+Update-Database // تطبيق التغييرات على قاعدة البيانات
