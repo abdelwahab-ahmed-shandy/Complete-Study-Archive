@@ -9,7 +9,9 @@
 3. نفّذ الأمر التالي:
 */
 Install-Package Microsoft.EntityFrameworkCore -Version 8.0.12
-
+Install-Package Microsoft.EntityFrameworkCore.Tools -Version 8.0.12
+Install-Package Microsoft.AspNetCore.Identity.EntityFrameworkCore -Version 8.0.12
+  
 // للتحقق من الحزمة المثبتة
 Get-Package 
 
