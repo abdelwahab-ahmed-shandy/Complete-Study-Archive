@@ -1,0 +1,4 @@
+
+لإضافة تسجيل الدخول عبر Google (External Login) إلى موقعك، يمكنك استخدام OAuth 2.0 و OpenID Connect عبر Google Identity Platform. إذا كنت تعمل على مشروع ASP.NET Core، 
+يمكنك الاستفادة من Identity و Google Authentication Middleware.
+
