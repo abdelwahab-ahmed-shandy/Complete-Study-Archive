@@ -1,0 +1,5 @@
+﻿  Create Lib.cpp
+E:\1_Programming\6_C++_level_2\Create Lib\Create Lib\MyFunctions.h(62,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Create%20Lib.cpp')
+  
+  Create Lib.vcxproj -> E:\1_Programming\6_C++_level_2\Create Lib\x64\Debug\Create Lib.exe

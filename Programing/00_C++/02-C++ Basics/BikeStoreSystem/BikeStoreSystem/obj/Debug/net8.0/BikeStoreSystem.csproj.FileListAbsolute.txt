@@ -1,0 +1,14 @@
+E:\1_Programming\6_C++_level_2\BikeStoreSystem\BikeStoreSystem\bin\Debug\net8.0\BikeStoreSystem.exe
+E:\1_Programming\6_C++_level_2\BikeStoreSystem\BikeStoreSystem\bin\Debug\net8.0\BikeStoreSystem.deps.json
+E:\1_Programming\6_C++_level_2\BikeStoreSystem\BikeStoreSystem\bin\Debug\net8.0\BikeStoreSystem.runtimeconfig.json
+E:\1_Programming\6_C++_level_2\BikeStoreSystem\BikeStoreSystem\bin\Debug\net8.0\BikeStoreSystem.dll
+E:\1_Programming\6_C++_level_2\BikeStoreSystem\BikeStoreSystem\bin\Debug\net8.0\BikeStoreSystem.pdb
+E:\1_Programming\6_C++_level_2\BikeStoreSystem\BikeStoreSystem\obj\Debug\net8.0\BikeStoreSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_Programming\6_C++_level_2\BikeStoreSystem\BikeStoreSystem\obj\Debug\net8.0\BikeStoreSystem.AssemblyInfoInputs.cache
+E:\1_Programming\6_C++_level_2\BikeStoreSystem\BikeStoreSystem\obj\Debug\net8.0\BikeStoreSystem.AssemblyInfo.cs
+E:\1_Programming\6_C++_level_2\BikeStoreSystem\BikeStoreSystem\obj\Debug\net8.0\BikeStoreSystem.csproj.CoreCompileInputs.cache
+E:\1_Programming\6_C++_level_2\BikeStoreSystem\BikeStoreSystem\obj\Debug\net8.0\BikeStoreSystem.dll
+E:\1_Programming\6_C++_level_2\BikeStoreSystem\BikeStoreSystem\obj\Debug\net8.0\refint\BikeStoreSystem.dll
+E:\1_Programming\6_C++_level_2\BikeStoreSystem\BikeStoreSystem\obj\Debug\net8.0\BikeStoreSystem.pdb
+E:\1_Programming\6_C++_level_2\BikeStoreSystem\BikeStoreSystem\obj\Debug\net8.0\BikeStoreSystem.genruntimeconfig.cache
+E:\1_Programming\6_C++_level_2\BikeStoreSystem\BikeStoreSystem\obj\Debug\net8.0\ref\BikeStoreSystem.dll

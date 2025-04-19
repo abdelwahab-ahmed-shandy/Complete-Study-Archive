@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ternary Operator", "Ternary Operator\Ternary Operator.vcxproj", "{383ABBC4-3327-4A46-B6AA-C3144C44D85E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{383ABBC4-3327-4A46-B6AA-C3144C44D85E}.Debug|x64.ActiveCfg = Debug|x64
+		{383ABBC4-3327-4A46-B6AA-C3144C44D85E}.Debug|x64.Build.0 = Debug|x64
+		{383ABBC4-3327-4A46-B6AA-C3144C44D85E}.Debug|x86.ActiveCfg = Debug|Win32
+		{383ABBC4-3327-4A46-B6AA-C3144C44D85E}.Debug|x86.Build.0 = Debug|Win32
+		{383ABBC4-3327-4A46-B6AA-C3144C44D85E}.Release|x64.ActiveCfg = Release|x64
+		{383ABBC4-3327-4A46-B6AA-C3144C44D85E}.Release|x64.Build.0 = Release|x64
+		{383ABBC4-3327-4A46-B6AA-C3144C44D85E}.Release|x86.ActiveCfg = Release|Win32
+		{383ABBC4-3327-4A46-B6AA-C3144C44D85E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {533769EB-37C6-4422-A7F5-5AE51B52823C}
+	EndGlobalSection
+EndGlobal

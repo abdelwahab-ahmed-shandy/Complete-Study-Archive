@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\1_Programming\\6_C\u002B\u002B_level_2\\Declaration Vs Definition\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DABAF64-3B11-4008-8D7E-94FFB2B57F2D}|Declaration Vs Definition\\Declaration Vs Definition.vcxproj|E:\\1_Programming\\6_C\u002B\u002B_level_2\\Declaration Vs Definition\\Declaration Vs Definition\\Declaration Vs Definition.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0DABAF64-3B11-4008-8D7E-94FFB2B57F2D}|Declaration Vs Definition\\Declaration Vs Definition.vcxproj|solutionrelative:Declaration Vs Definition\\Declaration Vs Definition.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Declaration Vs Definition.cpp",
+              "DocumentMoniker": "E:\\1_Programming\\6_C\u002B\u002B_level_2\\Declaration Vs Definition\\Declaration Vs Definition\\Declaration Vs Definition.cpp",
+              "RelativeDocumentMoniker": "Declaration Vs Definition\\Declaration Vs Definition.cpp",
+              "ToolTip": "E:\\1_Programming\\6_C\u002B\u002B_level_2\\Declaration Vs Definition\\Declaration Vs Definition\\Declaration Vs Definition.cpp",
+              "RelativeToolTip": "Declaration Vs Definition\\Declaration Vs Definition.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-12T19:31:31.836Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

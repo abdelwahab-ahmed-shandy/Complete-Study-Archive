@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\1_Programming\\6_C\u002B\u002B_level_2\\BikeStoreSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{674516A0-C342-4A99-B53C-D553131847F6}|BikeStoreSystem\\BikeStoreSystem.csproj|e:\\1_programming\\6_c\u002B\u002B_level_2\\bikestoresystem\\bikestoresystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674516A0-C342-4A99-B53C-D553131847F6}|BikeStoreSystem\\BikeStoreSystem.csproj|solutionrelative:bikestoresystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674516A0-C342-4A99-B53C-D553131847F6}|BikeStoreSystem\\BikeStoreSystem.csproj|e:\\1_programming\\6_c\u002B\u002B_level_2\\bikestoresystem\\bikestoresystem\\bikestoresystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{674516A0-C342-4A99-B53C-D553131847F6}|BikeStoreSystem\\BikeStoreSystem.csproj|solutionrelative:bikestoresystem\\bikestoresystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 595,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BikeStoreSystem.csproj",
+              "DocumentMoniker": "E:\\1_Programming\\6_C\u002B\u002B_level_2\\BikeStoreSystem\\BikeStoreSystem\\BikeStoreSystem.csproj",
+              "RelativeDocumentMoniker": "BikeStoreSystem\\BikeStoreSystem.csproj",
+              "ToolTip": "E:\\1_Programming\\6_C\u002B\u002B_level_2\\BikeStoreSystem\\BikeStoreSystem\\BikeStoreSystem.csproj",
+              "RelativeToolTip": "BikeStoreSystem\\BikeStoreSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-30T15:55:29.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\1_Programming\\6_C\u002B\u002B_level_2\\BikeStoreSystem\\BikeStoreSystem\\Program.cs",
+              "RelativeDocumentMoniker": "BikeStoreSystem\\Program.cs",
+              "ToolTip": "E:\\1_Programming\\6_C\u002B\u002B_level_2\\BikeStoreSystem\\BikeStoreSystem\\Program.cs",
+              "RelativeToolTip": "BikeStoreSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:55:24.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

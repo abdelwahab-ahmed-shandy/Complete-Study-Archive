@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Integer Format (printf).vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Integer Format (printf).cpp
+E:\1_Programming\6_C++_level_2\Integer Format (printf)\Integer Format (printf)\Integer Format (printf).cpp(25,11): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Integer Format (printf).vcxproj -> E:\1_Programming\6_C++_level_2\Integer Format (printf)\x64\Debug\Format (printf).exe
