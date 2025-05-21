@@ -38,3 +38,8 @@ Together, these concepts form the backbone of modern computer networks, allowing
 
 بروتوكول TCP: بروتوكول يضمن نقل بيانات موثوقًا.
 تُشكّل هذه المفاهيم مجتمعةً العمود الفقري لشبكات الحاسوب الحديثة، مما يُتيح لنا التواصل والوصول إلى المعلومات وإجراء الأعمال على نطاق عالمي.
+
+
+
+
+// Abdelwahab Shandy ")).
