@@ -1,0 +1,92 @@
+﻿@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success" id="successMessage">
+        @TempData["SuccessMessage"]
+    </div>
+    <script>
+        setTimeout(function () {
+            var successMessage = document.getElementById("successMessage");
+            if (successMessage) {
+                successMessage.style.display = "none";
+            }
+        }, 5000); 
+    </script>
+}
+
+@if (TempData["EditMessage"] != null)
+{
+    <div class="alert alert-success" id="successMessage">
+        @TempData["EditMessage"]
+    </div>
+    <script>
+        setTimeout(function () {
+            var successMessage = document.getElementById("successMessage");
+            if (successMessage) {
+                successMessage.style.display = "none";
+            }
+        }, 5000); 
+    </script>
+}
+
+@if (TempData["DeleteMessage"] != null)
+{
+    <div class="alert alert-success" id="successMessage">
+        @TempData["DeleteMessage"]
+    </div>
+    <script>
+        setTimeout(function () {
+            var successMessage = document.getElementById("successMessage");
+            if (successMessage) {
+                successMessage.style.display = "none";
+            }
+        }, 5000);
+    </script>
+}
+
+@{
+    ViewData["Title"] = "Detiles Employee";
+}
+
+<div class="mt-4">
+
+    <h2>Welcome @ViewBag.Name</h2>
+
+    <p>Here is your to-do list</p>
+
+</div>
+
+<div>
+    <a href="/Home/CreateToDoList" class="btn btn-primary mb-3">Create New</a>
+</div>
+
+<div>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Description</th>
+                <th scope="col">Deadline</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Title</th>
+                    <td>@item.Description</td>
+                    <td>@item.DeadLine.ToString("yyyy-MM-dd")</td>
+                    <td>
+
+                        <a href="/Home/EditDoList/@item.Id" class="btn btn-primary btn-sm">Edit</a>
+
+
+                        <a href="/Home/DeleteDoList/@item.Id" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete?')" >Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

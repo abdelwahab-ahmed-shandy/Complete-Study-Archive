@@ -1,0 +1,94 @@
+﻿@model MovieMart.Models.ViewModels.EditProfileVM
+@{
+    ViewData["Title"] = "Edit Profile";
+}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg border-0 rounded-lg">
+                <div class="card-header bg-primary text-white text-center">
+                    <h3><i class="fas fa-user-edit"></i> Edit Profile</h3>
+                </div>
+
+                <div class="card-body">
+                    <form asp-action="EditProfile" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="mb-3 text-center">
+                            <img src="~/Assets/Users/user.png"
+                                 class="rounded-circle img-thumbnail shadow-sm"
+                                 alt="User Avatar" width="150" height="150" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">First Name</label>
+                            <input asp-for="FirstName" class="form-control" placeholder="Enter First Name" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Last Name</label>
+                            <input asp-for="LastName" class="form-control" placeholder="Enter Last Name" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Username</label>
+                            <input asp-for="UserName" class="form-control" placeholder="Enter Username" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Email</label>
+                            <input asp-for="Email" class="form-control" placeholder="Enter Email" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Address</label>
+                            <input asp-for="Address" class="form-control" placeholder="Enter Address" />
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="CurrentPassword" class="form-label fw-bold"></label>
+                            <input asp-for="CurrentPassword" class="form-control" type="password" placeholder="Enter Current Password" />
+                            <span asp-validation-for="CurrentPassword" class="text-danger"></span>
+                            <small class="form-text text-muted">You must enter your current password to update your profile.</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="NewPassword" class="form-label fw-bold"></label>
+                            <input asp-for="NewPassword" class="form-control" type="password" placeholder="Enter New Password" />
+                            <span asp-validation-for="NewPassword" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="ConfirmNewPassword" class="form-label fw-bold"></label>
+                            <input asp-for="ConfirmNewPassword" class="form-control" type="password" placeholder="Confirm New Password" />
+                            <span asp-validation-for="ConfirmNewPassword" class="text-danger"></span>
+                        </div>
+
+
+
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="fas fa-save"></i> Save Changes
+                            </button>
+                            <a asp-action="Profile" class="btn btn-outline-secondary btn-lg">
+                                <i class="fas fa-arrow-left"></i> Cancel
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+}

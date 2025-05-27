@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Actor>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+
+<h2>Actors List</h2>
+
+<!-- Control buttons -->
+
+    <div class="mb-3 d-flex justify-content-between">
+        <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Back to Home</a>
+        <a asp-action="Create" class="btn btn-primary">Add New Actor</a>
+    </div>
+
+
+<table class="table table-hover">
+
+    <thead class="mt-2">
+
+        <tr class="table-dark ">
+            <th scope="row">#</th>
+            <td>Profile Picture</td>
+            <td>Name</td>
+            <td>Bio</td>
+            <td>News</td>
+            <td>Action</td>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+
+                <td>@item.Id</td>
+                <td>
+                    <img src="~/Assats/Custumer/ActorProfilePicture/@item.ProfilePicture" alt="Profile Picture of @item.FirstName @item.LastName"
+                         class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;">
+                </td>
+                <td>@item.FirstName @item.LastName</td>
+                <td>@item.Bio</td>
+                <td>@item.News</td>
+
+                <!-- Edit and delete buttons -->
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+
+</table>
+</div>

@@ -1,0 +1,46 @@
+﻿@model CinemaMoviesViewCategory
+
+@{
+    ViewData["Title"] = "Movies in " + Model.Category.Name;
+}
+
+<h2 class="text-center mb-4">Movies in @Model.Category.Name</h2>
+
+@if (!Model.Movies.Any())
+{
+    <p class="text-center text-muted">No movies available in this category.</p>
+}
+else
+{
+    <div class="container mt-4">
+        <div class="row">
+            @foreach (var item in Model.Movies)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-lg p-3 bg-white rounded h-100">
+                        <img src="~/Assats/Custumer/PhotoMovie/@item.ImgUrl"
+                             class="card-img-top rounded shadow-sm"
+                             alt="@item.Name"
+                             style="height: 400px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">@item.Name</h5>
+                            <p class="mb-2"><strong>Price:</strong> <span class="badge bg-success">$@item.Price</span></p>
+                            <p class="mb-2"><strong>Cinema:</strong> @item.Cinema?.Name</p>
+                            <p class="mb-2"><strong>Start Date:</strong> @item.StartDate.ToString("M/d/yyyy h:mm tt")</p>
+                            <p class="mb-2"><strong>End Date:</strong> @item.EndDate.ToString("M/d/yyyy h:mm tt")</p>
+
+                            <a href="@Url.Action("Details", "Movie", new { area = "Customer", id = item.Id })"
+                               class="btn btn-primary w-100">
+                                View Details
+                            </a>
+                            <a href="@Url.Action("Index", "Category", new { area = "Customer", id = item.Id })"
+                               class="btn btn-primary w-100 mt-1">
+                                Back A Category
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}

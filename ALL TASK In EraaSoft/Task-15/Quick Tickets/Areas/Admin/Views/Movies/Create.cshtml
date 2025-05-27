@@ -1,0 +1,107 @@
+﻿@model Movie
+
+@{
+    ViewData["Title"] = "Add New Movie";
+}
+
+<div class="container">
+    <h2 class="mb-4">Add a New Movie 🎬</h2>
+
+    <form  method="post" enctype="multipart/form-data">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label">Movie Name</label>
+                    <input asp-for="Name" class="form-control" required />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Description" class="form-label">Description</label>
+                    <textarea asp-for="Description" class="form-control" rows="3" required></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Price" class="form-label">Price</label>
+                    <input asp-for="Price" class="form-control" type="number" step="0.01" required />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="TrailerUrl" class="form-label">Trailer URL</label>
+                    <input asp-for="TrailerUrl" class="form-control" />
+                    <span asp-validation-for="TrailerUrl" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="StartDate" class="form-label">Start Date</label>
+                    <input asp-for="StartDate" class="form-control" type="date" required />
+                    <span asp-validation-for="StartDate" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="EndDate" class="form-label">End Date</label>
+                    <input asp-for="EndDate" class="form-control" type="date" required />
+                    <span asp-validation-for="EndDate" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="MovieStatus" class="form-label">Movie Status</label>
+                    <select asp-for="MovieStatus" class="form-control">
+                        <option value="1"> 1 </option>
+                        <option value="2"> 2 </option>
+                    </select>
+                    <span asp-validation-for="MovieStatus" class="text-danger"></span>
+                </div>
+
+
+                <div class="mb-3">
+                    <label for="Cinema" class="form-label">Cinema Name</label>
+                    <select asp-for="CinemaId" class="form-select" multiple asp-items="@(new SelectList(ViewBag.Cinema , "Id", "Name"))">
+                        <option value="">-- Select Cinema --</option>
+                    </select>
+                </div>
+
+
+                <div class="mb-3">
+                    <label for="Category" class="form-label">Category Name</label>
+                    <select asp-for="CategoryId" class="form-select" multiple asp-items="@(new SelectList(ViewBag.Category , "Id", "Name"))">
+                        <option value="">-- Select Category --</option>
+                    </select>
+                </div>
+
+                
+
+
+
+
+
+                <div class="mb-3">
+                    <label for="file" class="form-label">Upload Movie Image</label>
+                    <input type="file" name="file" class="form-control" id="file" required onchange="previewImage(event)" />
+                    <img id="preview" src="#" alt="Preview Image" class="img-fluid mt-2" style="max-height: 200px; display: none;">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Add Movie</button>
+                <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<script>
+    function previewImage(event) {
+        var preview = document.getElementById('preview');
+        preview.src = URL.createObjectURL(event.target.files[0]);
+        preview.style.display = 'block';
+    }
+</script>

@@ -1,0 +1,41 @@
+﻿@model MovieMart.Models.ViewModels.ProfileVM
+@{
+    ViewData["Title"] = "Profile";
+}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg border-0 rounded-lg">
+                <div class="card-body text-center">
+                    <div class="d-flex justify-content-center">
+                        <img src="~/Assets/Users/user.png"
+                             class="rounded-circle img-thumbnail shadow-sm"
+                             alt="User Avatar" width="150" height="150" />
+                    </div>
+
+                    <h3 class="card-title fw-bold mt-3">@Model.FirstName @Model.LastName</h3>
+                    <p class="text-muted">@Model.UserName</p>
+
+                    <hr>
+
+                    <div class="text-start px-4">
+                        <p class="mb-2">
+                            <i class="fas fa-envelope text-primary me-2"></i>
+                            <strong>Email:</strong> @Model.Email
+                        </p>
+                        <p class="mb-2">
+                            <i class="fas fa-map-marker-alt text-danger me-2"></i>
+                            <strong>Address:</strong> @Model.Address
+                        </p>
+                    </div>
+
+                    <div class="mt-4">
+                        <a asp-area="Identity" asp-controller="Account" asp-action="EditProfile" class="btn btn-outline-primary btn-lg">
+                            <i class="fas fa-edit"></i> Edit Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

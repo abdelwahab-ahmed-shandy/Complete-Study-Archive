@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Movie>
+@{
+    ViewData["Title"] = "Movie Page";
+}
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+            <th scope="col">Movie Status</th>
+            <th scope="col">Start Date</th>
+            <th scope="col">End Date</th>
+            <th scope="col" class="text-center">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="table-active">
+                <th scope="row">@item.Name</th>
+                <td>@item.Description</td>
+                <td>@item.Price</td>
+
+                <td>@item.StartDate.ToString("M/d/yyyy h:mm tt")</td>
+                <td>@item.EndDate.ToString("M/d/yyyy h:mm tt")</td>
+                <td>
+                    @{
+                        var now = DateTime.Now;
+                    }
+                    @if (item.EndDate < now)
+                    {
+                        <span class="badge bg-danger">Expired</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-success">Available</span>
+                    }
+                </td>
+                <td class="text-center">
+                    <a href="@Url.Action("Details", "Movie", new { area = "Customer", id = item.Id })" class="btn btn-primary btn-sm">More Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

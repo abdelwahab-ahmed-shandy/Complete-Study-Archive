@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Edit Do List";
+}
+
+
+@* <div class="container my-3"> *@
+@*     <div class="row mb-3"> *@
+@*         <div class="d-flex justify-content-between align-items-center"> *@
+@*             <div class="display-6"> *@
+@*                 <a href="/Home/DetilesName" class="text-dark text-decoration-none"> *@
+@*                     <img src="~/assets/images/Icone/arrow-arrow-left-change-direction-left-next-undo_122508.png" alt="Back" width="24" height="24"> *@
+@*                 </a> *@
+
+@*                 Edit To Do Item "@Model.Title" *@
+@*             </div> *@
+@*         </div> *@
+@*     </div> *@
+
+@*     <div class="row mt-3"> *@
+@*         <form action="/Home/SaveEditDoList"> *@
+@*             <div class="mb-3"> *@
+@*                 <label for="name" class="form-label  fw-semibold">Edit Title </label> *@
+@*                 <input type="text" class="form-control" id="title" name="title" placeholder="Edit a title" required> *@
+@*             </div> *@
+
+@*             <div class="mb-3"> *@
+@*                 <label for="name" class="form-label  fw-semibold">Edit Description</label> *@
+@*                 <input type="text" class="form-control" id="description" name="description" rows="3" placeholder="Edit a description"> *@
+@*             </div> *@
+
+@*             <div class="mb-3"> *@
+@*                 <label for="name" class="form-label  fw-semibold">Edit DeadLine </label> *@
+@*                 <input type="date" class="form-control" id="deadline" name="deadline" required> *@
+@*             </div> *@
+
+@*             <div> *@
+@*                 <button type="submit" class="btn btn-success"> *@
+@*                     <i class="bi bi-plus-circle"></i> Edit *@
+@*                 </button> *@
+@*             </div> *@
+@*         </form> *@
+@*     </div> *@
+@* </div> *@
+
+
+@* @model ToDoList *@
+@* @{ *@
+@*     ViewData["Title"] = "Edit To-Do Item"; *@
+@* } *@
+
+<div class="container my-3">
+    <div class="row mb-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="display-6">
+                <a href="/Home/DetilesName" class="text-dark text-decoration-none">
+                    <img src="~/assets/images/Icone/arrow-arrow-left-change-direction-left-next-undo_122508.png"
+                         alt="Back" width="24" height="24">
+                </a>
+                Edit To-Do Item "@Model.Title"
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <form method="post" action="/Home/SaveEditDoList">
+            <input type="hidden" name="id" value="@Model.Id" />
+
+            <div class="mb-3">
+                <label for="title" class="form-label fw-semibold">Edit Title</label>
+                <input type="text" class="form-control" id="title" name="title" value="@Model.Title" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="description" class="form-label fw-semibold">Edit Description</label>
+                <textarea class="form-control" id="description" name="description" rows="3" required>@Model.Description</textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="deadline" class="form-label fw-semibold">Edit Deadline</label>
+                <input type="date" class="form-control" id="deadline" name="deadline" value="@Model.DeadLine.ToString("yyyy-MM-dd")" required>
+            </div>
+
+            <div>
+                <button type="submit" class="btn btn-success">
+                    <i class="bi bi-pencil-square"></i> Save Changes
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

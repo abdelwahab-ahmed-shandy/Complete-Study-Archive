@@ -1,0 +1,62 @@
+﻿@model List<Doctor>
+
+@{
+    ViewData["Title"] = "Book An Appointment";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var doctor in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm doctor-card">
+                        <img src="@doctor.Img" class="card-img-top doctor-img" alt="Doctor Image">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">@doctor.Name</h5>
+                            <h6 class="text-muted">@doctor.Specialization</h6>
+                            <a class="btn btn-primary btn-hover" asp-controller="CompleteAppointment" asp-action="CompleteAppointment" asp-route-id="@doctor.Id">
+                                Book Appointment
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p class="text-danger text-center">No doctors available at the moment.</p>
+        }
+    </div>
+</div>
+
+<style>
+    .doctor-img {
+        height: 450px;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .doctor-card {
+        border-radius: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .doctor-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-hover {
+        transition: all 0.3s ease;
+    }
+
+    .btn-hover:hover {
+        background-color: #0056b3;
+        color: #fff;
+        transform: scale(1.05);
+    }
+</style>
+

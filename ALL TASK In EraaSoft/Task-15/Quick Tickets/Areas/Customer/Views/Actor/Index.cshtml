@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Actor>
+@{
+    ViewData["Title"] = "Category";
+}
+
+<table class="table table-hover">
+    <thead>
+        <tr >
+            
+            <th scope="col">Profile Picture</th>
+            <th scope="col">Name</th>
+            <th scope="col">Bio</th>
+            <th scope="col">News</th>
+            <th scope="col">View All Movies</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="table-active">
+
+                <td>
+                    <img src="~/Assats/Custumer/ActorProfilePicture/@item.ProfilePicture" alt="Profile Picture of @item.FirstName @item.LastName"
+                         class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;">
+                </td>
+                <th scope="row">@item.FirstName @item.LastName</th>
+                <td>@item.Bio</td>
+                <td>@item.News</td>
+                <td>
+                    <a href="@Url.Action("MoviesByActor", "Actor", new { area = "Customer", id = item.Id })"
+                       class="btn btn-primary w-100 mb-2">
+                        View Movies
+                    </a>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+

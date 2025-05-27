@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Complete Appointment";
+}
+@model List<Doctor>
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4">
+        <h2 class="text-center mb-4 text-primary">Complete Appointment with @ViewBag.DoctorName</h2>
+
+        <form>
+            <div class="mb-3">
+                <label class="form-label fw-bold">Patient Name</label>
+                <input type="text" class="form-control" placeholder="Enter your name" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-bold">Preferred Appointment Date</label>
+                <input type="date" class="form-control" name="appointmentDate" min="@DateTime.Now.ToString("yyyy-MM-dd")" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-bold">Preferred Appointment Time</label>
+                <input type="time" class="form-control" name="appointmentTime" required>
+            </div>
+
+            <button type="button" class="btn btn-outline-primary mt-3 px-4 py-2" style="width: auto;" data-bs-toggle="modal" data-bs-target="#appointmentModal">
+                Complete Appointment
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="appointmentModal" tabindex="-1" aria-labelledby="appointmentModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="appointmentModalLabel">Appointment Confirmation</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Your appointment has been successfully booked!</p>
+                <p></p>
+                <p>Booked with @ViewBag.DoctorName</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-primary">Confirm Appointment</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

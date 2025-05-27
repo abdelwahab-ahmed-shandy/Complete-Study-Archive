@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MovieMart</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MovieMart.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" asp-area="Customer" asp-controller="Home" asp-action="Index">
+                    <img src="~/Assets/Customer/imag/favicon.png" asp-append-version="true" alt="Logo" class="me-2" width="30" height="30">
+                    MovieMart
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link text-dark" asp-controller="Movie" asp-action="Index">Movies</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" asp-controller="Category" asp-action="Index">Categories</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" asp-controller="Character" asp-action="Index">Characters</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" asp-controller="Season" asp-action="Index">Seasons</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" asp-controller="TvSerie" asp-action="Index">Tv Series</a></li>
+
+                        @if (User.IsInRole("Admin") || User.IsInRole("SuberAdmin") )
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark fw-semibold" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-cogs me-1"></i> Management
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-wrench me-1"></i> Action</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-tasks me-1"></i> Another action</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-lightbulb me-1"></i> Something else here</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-link me-1"></i> Separated link</a>
+                                </div>
+                            </li>
+                        }
+                    </ul>
+
+
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search">
+                        <button class="btn btn-secondary" type="submit">Search</button>
+                    </form>
+
+                    <ul class="navbar-nav ms-3">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a id="manage" class="nav-link text-dark" asp-area="Users" asp-controller="Account" asp-action="Manage">Hello @User.Identity.Name</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="Users" asp-controller="Account" asp-action="Profile">Profile</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <form id="logoutForm" method="post" asp-area="Users" asp-controller="Account" asp-action="Logout">
+                                    <button id="logout" type="submit" class="nav-link btn btn-link text-dark border-0">Logout</button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="Users" asp-controller="Account" asp-action="Register">Register</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="Users" asp-controller="Account" asp-action="Login">Login</a></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <span class="text-muted">© 2025 MovieMart - Abdelwahab Shandy</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/abdelwahab-shandy" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="24" height="24"></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://github.com/abdelwahab-ahmed-shandy" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" width="24" height="24"></a></li>
+        </ul>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

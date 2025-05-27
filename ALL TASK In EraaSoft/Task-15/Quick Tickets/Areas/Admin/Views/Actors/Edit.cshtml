@@ -1,0 +1,87 @@
+﻿@model Actor
+@{
+    ViewData["Title"] = "Edit Actor";
+}
+
+<div class="container">
+
+    <div class="row mb-3">
+        <div class="col-12">
+            <h2 class="mb-3">Edit Actor</h2>
+        </div>
+        <div class="col-12 d-flex justify-content-between align-items-center">
+            <a asp-area="Admin" asp-controller="Actors" asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Go Back
+            </a>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <form method="post" enctype="multipart/form-data">
+            <input type="hidden" asp-for="Id" />
+
+            <div class="mb-3">
+                <label for="FirstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" asp-for="FirstName">
+                <span class="text-danger" asp-validation-for="FirstName"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="LastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" asp-for="LastName">
+                <span class="text-danger" asp-validation-for="LastName"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="Bio" class="form-label">Bio</label>
+                <textarea class="form-control" asp-for="Bio" rows="4"></textarea>
+                <span class="text-danger" asp-validation-for="Bio"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="News" class="form-label">News</label>
+                <textarea class="form-control" asp-for="News" rows="4"></textarea>
+                <span class="text-danger" asp-validation-for="News"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="Movies" class="form-label">Movies</label>
+                <select asp-for="Movies" class="form-select" multiple asp-items="@(new SelectList(ViewBag.Movies, "Id", "Name"))">
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="ProfilePicture" class="form-label">Profile Picture</label>
+                <input type="file" class="form-control" id="ProfilePicture" name="file" accept="image/*">
+                <div class="mt-2">
+                    <img id="imagePreview" src="@(!string.IsNullOrEmpty(Model.ProfilePicture) ? $"/Assets/Customer/ActorProfilePicture/{Model.ProfilePicture}" : "#")"
+                         alt="Image Preview"
+                         style="max-width: 20%; display: @(string.IsNullOrEmpty(Model.ProfilePicture) ? "none" : "block");" />
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-success">Update</button>
+        </form>
+    </div>
+
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById("ProfilePicture").addEventListener("change", function (event) {
+            var file = event.target.files[0];
+            var preview = document.getElementById("imagePreview");
+
+            if (file) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    preview.src = e.target.result;
+                    preview.style.display = "block";
+                };
+                reader.readAsDataURL(file);
+            } else {
+                preview.style.display = "none";
+            }
+        });
+    </script>
+}

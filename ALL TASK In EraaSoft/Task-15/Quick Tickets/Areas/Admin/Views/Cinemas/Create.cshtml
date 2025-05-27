@@ -1,0 +1,49 @@
+﻿@model Cinema
+@{
+    ViewData["Title"] = "Create New Cinema";
+}
+
+<div class="container">
+
+    <div class="row mb-3">
+        <div class="col-12">
+            <h2 class="mb-3">Add New Cinema</h2>
+        </div>
+        <div class="col-12 d-flex justify-content-between align-items-center">
+
+            <a asp-area="Admin" asp-controller="Cinemas" asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Go Back
+            </a>
+
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        
+        <form asp-area="Admin" asp-controller="Cinemas" asp-action="Create" method="post">
+        
+            <div class="mb-3">
+                <label for="Name" class="form-label">Cinema Name</label>
+                <input type="text" class="form-control" id="Name" name="Name" value="@Model?.Name">
+                <span class="text-danger" asp-validation-for="Name"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="Description" class="form-label">Cinema Description</label>
+                <textarea class="form-control" id="Description" name="Description" rows="4">@Model?.Description</textarea>
+                <span class="text-danger" asp-validation-for="Description"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="Address" class="form-label">Cinema Address</label>
+                <textarea class="form-control" id="Address" name="Address" rows="4">@Model?.Address</textarea>
+                <span class="text-danger" asp-validation-for="Address"></span>
+            </div>
+
+
+            <button type="submit" class="btn btn-secondary">Create</button>
+        </form>
+
+    </div>
+
+</div>

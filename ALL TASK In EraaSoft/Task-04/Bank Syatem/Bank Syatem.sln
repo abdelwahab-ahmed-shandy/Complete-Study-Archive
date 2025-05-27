@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task - 4", "Task - 4\Task - 4.csproj", "{A190E58D-D5A3-4A88-AF8E-A6B3AC81F65E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task - Search", "Task - Search", "{225F2F17-E5E3-4023-B441-EB51D1101631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception handling - 1", "Exception handling - 1\Exception handling - 1.csproj", "{D41C8C29-1167-43B7-B784-169F805D8D82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A190E58D-D5A3-4A88-AF8E-A6B3AC81F65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A190E58D-D5A3-4A88-AF8E-A6B3AC81F65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A190E58D-D5A3-4A88-AF8E-A6B3AC81F65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A190E58D-D5A3-4A88-AF8E-A6B3AC81F65E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D41C8C29-1167-43B7-B784-169F805D8D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D41C8C29-1167-43B7-B784-169F805D8D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D41C8C29-1167-43B7-B784-169F805D8D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D41C8C29-1167-43B7-B784-169F805D8D82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D41C8C29-1167-43B7-B784-169F805D8D82} = {225F2F17-E5E3-4023-B441-EB51D1101631}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B215A3F8-E6EF-435F-A424-CD0AA2C9FD22}
+	EndGlobalSection
+EndGlobal

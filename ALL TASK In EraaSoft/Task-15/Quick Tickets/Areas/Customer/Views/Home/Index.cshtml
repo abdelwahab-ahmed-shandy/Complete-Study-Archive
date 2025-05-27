@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Movie>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+
+                <div class="card shadow-lg p-3 bg-white rounded h-100">
+
+                    <img src="~/Assats/Custumer/PhotoMovie/@item.ImgUrl"
+                         class="card-img-top rounded shadow-sm"
+                         alt="@item.Name"
+                         style="height: 400px; object-fit: cover;">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <h5 class="card-title fw-bold">@item.Name</h5>
+
+                        <p class="mb-2">
+                            <span class="fw-bold">Price:</span>
+                            <span class="badge bg-success">$@item.Price</span>
+                        </p>
+
+                        <p class="mb-2">
+                            <span class="fw-bold">Category:</span>
+                            @if (!string.IsNullOrEmpty(item.Category?.Name))
+                            {
+                                <a href="@Url.Action("Category", "Movies", new { category = item.Category.Name })" class="text-primary text-decoration-none">
+                                    @item.Category.Name
+                                </a>
+                            }
+                            else
+                            {
+                                <span class="text-muted">No Category</span>
+                            }
+                        </p>
+
+                        <p class="mb-2">
+                            <span class="fw-bold">Start Date:</span>
+                            <span class="text-muted">@item.StartDate.ToString("M/d/yyyy h:mm tt")</span>
+                        </p>
+
+                        <p class="mb-2">
+                            <span class="fw-bold">End Date:</span>
+                            <span class="text-muted">@item.EndDate.ToString("M/d/yyyy h:mm tt")</span>
+                        </p>
+
+                        @{
+                            var now = DateTime.Now;
+                        }
+                        <p class="mb-3">
+                            <span class="fw-bold">Status:</span>
+                            @if (item.EndDate < now)
+                            {
+                                <span class="badge bg-danger">Expired</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-success">Available</span>
+                            }
+                        </p>
+
+                        <div class="mt-auto">
+                            <a href="@Url.Action("Details", "Movie", new { id = item.Id })" class="btn btn-primary w-100 mb-2">Details</a>
+                            <a href="@Url.Action("Book", "Movies", new { id = item.Id })" class="btn btn-success w-100">Book Ticket</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
