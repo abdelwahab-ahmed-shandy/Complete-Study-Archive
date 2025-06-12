@@ -1,101 +1,243 @@
-# Reconnaissance & Information Gathering
+## 🔍 Reconnaissance & Information Gathering
 
-## المديول الثاني: استطلاع وجمع المعلومات
-
-في هذا المديول نبدأ بأول خطوة عملية وهي الاستطلاع (Reconnaissance)
-
-هدف هذه المرحلة هو معرفة كل ما يتعلق بالهدف ومكوناته وكيفية الوصول لمعلومات مفصلة عنه.
-
-يتم الاستطلاع عن طريق أسلوبين:
-
-1. **Active Reconnaissance**
-2. **Passive Reconnaissance**
-
-### الفرق الرئيسي بينهما:
-
-* **Active Reconnaissance**: عندما نزور الموقع مباشرة ونستكشف محتوياته (مثل الصفحات والكود والتقنيات المستخدمة). هذا الاسلوب يسبت آثاراً على الويب سيرفر كرقم الآي بي ونوع المتصفح ونظام التشغيل.
-
-* **Passive Reconnaissance**: نستخدم أدوات جانبية تنفذ عمليات الاستطلاع بدون تفاعل مباشر مع الموقع.
-
-## أهم الأدوات لجمع المعلومات
-
-### 1. **Shodan**
-
-* محرك بحث لكل أنظمة الإنترنت (شبيه بـ Scanner)
-* يمكنك البحث عن ويب سيرفرز معينة وتقنيات مع تحديد الدولة
-* يعرض: Open Ports والخدمات المفتوحة ونوع السيرفر والمنظمة المستضيفة
-
-### 2. **Censys**
-
-* مشابهة لشودن ولكن أكثر تنظيماً في عرض البيانات
-* يعرض: OS, Load Balancer, Open Ports, HTTP Status, SSL Certificate Info
-
-### 3. **crt.sh (Certificate Transparency Logs)**
-
-* يستعرض الدومينات والسب دومينات المرتبطة بشهادات SSL
-* يمكن استعراض مواعيد انتهاء الشهادات والتجديد
-* هذا يفيد في كشف الأنظمة الفعلية والسب دومينات للهدف
-
-## ملاحظة مهمة:
-
-قبل أي عملية مسح أو استطلاع لموقع ما يجب التأكد من أنه منضم للنطاق (نطاق العمل - Scope) المخصص لك من قبل العميل.
+**المرحلة الثانية من دورة اختبار الاختراق - جمع المعلومات عن الهدف**
 
 ---
 
-https://www.shodan.io/ 
+### 🧭 تعريف المرحلة
 
-https://www.shodan.io/search/examples 
+* الهدف: التعرف على مكونات الهدف وجمع أكبر كم من المعلومات عنه.
+* الطريقتان الأساسيتان:
 
-https://search.censys.io/ 
-
-https://crt.sh/
-
----
+  * **Active Reconnaissance** (استطلاع مباشر)
+  * **Passive Reconnaissance** (استطلاع غير مباشر)
 
 ---
 
-# Reconnaissance & Information Gathering
+### 🆚 الفرق بين Active و Passive Recon
 
-## Module Two: Survey and Information Gathering
-
-In this module, we begin with the first practical step, which is survey (reconnaissance).
-
-The goal of this stage is to learn everything about the target, its components, and how to access detailed information about it.
-
-Surveying is conducted using two methods:
-
-1. **Active Reconnaissance**
-2. **Passive Reconnaissance**
-
-### The main difference between them:
-
-* **Active Reconnaissance**: When we visit the website directly and explore its contents (such as pages, code, and technologies used). This method leaves traces on the web server, such as the IP address, browser type, and operating system.
-
-* **Passive Reconnaissance**: We use side tools that perform surveys without directly interacting with the website.
-
-## The most important tools for gathering information
-
-### 1. **Shodan**
-
-* A search engine for all Internet systems (similar to Scanner)
-* You can search for specific web servers and technologies by specifying the country
-* Displays: Open Ports, Open Services, Server Type, and Hosting Organization
-
-### 2. **Censys**
-
-* Similar to Shodan, but more organized in data presentation
-* Displays: OS, Load Balancer, Open Ports, HTTP Status, SSL Certificate Info
-
-### 3. **crt.sh (Certificate Transparency Logs)**
-
-* Displays domains and subdomains associated with SSL certificates
-* Certificate expiration and renewal dates can be viewed
-* This is useful for identifying the actual systems and subdomains of the target
-
-## Important Note:
-
-Before any scanning or survey of a website, you must ensure that it is affiliated with the domain (working scope) assigned to you by the client.
+| النوع       | الوصف                       | مثال                     | المميزات  | العيوب             |
+| ----------- | --------------------------- | ------------------------ | --------- | ------------------ |
+| **Active**  | تفاعل مباشر مع الهدف        | تصفح الموقع              | دقة أعلى  | يترك آثار (IP، OS) |
+| **Passive** | جمع معلومات دون تفاعل مباشر | استخدام أدوات مثل Shodan | أكثر سرية | قد لا تكون شاملة   |
 
 ---
 
-These are the steps for surveying and gathering initial information for the target. In the next steps, we will review tools for deep scanning.
+### 🛠️ أدوات الاستطلاع
+
+#### 1. **Shodan**
+
+* محرك بحث مخصص للأجهزة المتصلة بالإنترنت.
+* يقوم بعمل **scan** شامل لعناوين IPv4.
+* يمكن استخدامه للبحث عن:
+
+  * نوع السيرفر (Apache, Nginx)
+  * البورتات المفتوحة
+  * نظام التشغيل
+  * الشهادات الرقمية
+  * الثغرات المرتبطة بالإصدار
+
+**مثال استخدام:**
+
+```bash
+apache country:"NL"
+```
+
+> يعرض سيرفرات Apache في هولندا.
+
+---
+
+#### 2. **Censys**
+
+* أداة مشابهة لـ Shodan لكنها تعرض البيانات بشكل منظم أكثر.
+* يمكنها إظهار:
+
+  * الأنظمة المشغلة للسيرفر (Linux/Windows)
+  * معلومات Load Balancer
+  * شهادات SSL
+  * الاستجابة (HTTP Status)
+  * السب دومينز المرتبطة
+
+---
+
+#### 3. **crt.sh**
+
+* موقع مختص بتحليل شهادات SSL/TLS.
+* يفيد في:
+
+  * معرفة **السب دومينز** الخاصة بالدومين.
+  * التحقق من صلاحية الشهادة وتاريخ انتهائها.
+  * معرفة أسماء الدومينات المرتبطة بنفس الشهادة.
+
+---
+
+### 🧠 خطوات عملية لجمع المعلومات
+
+#### ✅ الخطوة الأولى:
+
+* زيارة الموقع يدوياً (Active Recon).
+* فحص:
+
+  * الصفحات (Login, Register, Contact)
+  * الـ JavaScript أو Client-Side Code
+  * Headers والمعلومات المخفية
+
+#### ✅ الخطوة الثانية:
+
+* البدء بجمع معلومات من الأدوات السابقة (Passive Recon):
+
+  * Shodan → معرفة الـ IPs وPorts وServices.
+  * Censys → فحص الإصدار ونظام التشغيل.
+  * crt.sh → استخراج قائمة السب دومينز.
+
+---
+
+### ⚠️ ملاحظات هامة
+
+* يجب أن تكون **الدومينات أو السب دومينز** التي تقوم بفحصها **مذكورة ضمن الـ Scope** المسموح به من قبل صاحب المشروع.
+* لا يجوز فحص خدمات خارج هذا النطاق (حتى وإن كانت مرتبطة تقنياً) لتفادي **مشاكل قانونية**.
+
+---
+
+### 📎 روابط مفيدة
+
+* [Shodan](https://www.shodan.io/)
+* [Censys](https://search.censys.io/)
+* [crt.sh](https://crt.sh/)
+* [builtwith](https://builtwith.com/)
+* [Whois](https://whois.domaintools.com/)
+* [mxtoolbox](https://mxtoolbox.com/)
+* [GoogleDorking.md](https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06)
+* [GoogleDorking](https://www.exploit-db.com/google-hacking-databas)
+
+---
+
+### 🎯 الهدف النهائي
+
+> توسعة نطاق **Attack Surface** من خلال تحديد:
+
+* الأنظمة المستخدمة
+* الخدمات المتاحة
+* البورتات المفتوحة
+* نقاط الضعف المحتملة
+
+
+--- 
+
+## 🔍 Reconnaissance & Information Gathering
+
+**The Second Phase of the Penetration Testing Cycle - Gathering Information About the Target**
+
+---
+
+### 🧭 Phase Definition
+
+* Objective: Identify the target's components and gather as much information about it as possible.
+* Two Basic Methods:
+
+* **Active Reconnaissance** (Direct Reconnaissance)
+* **Passive Reconnaissance** (Indirect Reconnaissance)
+
+---
+
+### 🆚 The Difference Between Active and Passive Recon
+
+| Type | Description | Example | Advantages | Disadvantages |
+| ---------- | ----------- | ----------- | ------------------ |
+| **Active** | Direct Interaction with the Target | Website Browsing | Higher Accuracy | Leaves Traces (IP, OS) |
+| **Passive** | Gather Information Without Direct Interaction | Use Tools Like Shodan | More Secretive | May Not Be Comprehensive |
+
+---
+
+### 🛠️ Survey Tools
+
+#### 1. **Shodan**
+
+* A search engine dedicated to devices connected to the Internet.
+* Performs a comprehensive **scan** of IPv4 addresses.
+* Can be used to search for:
+
+* Server type (Apache, Nginx)
+* Open ports
+* Operating system
+* Digital certificates
+* Version-related vulnerabilities
+
+**Example usage:**
+
+```bash
+apache country:"NL"
+```
+
+> Displays Apache servers in the Netherlands.
+
+---
+
+#### 2. **Censys**
+
+* A tool similar to Shodan but displays data in a more organized format.
+* It can display:
+
+* Server operating systems (Linux/Windows)
+* Load Balancer information
+* SSL certificates
+* Response (HTTP Status)
+* Associated subdomains
+
+---
+
+#### 3. **crt.sh**
+
+* A website specializing in analyzing SSL/TLS certificates.
+* Useful for:
+
+* Identifying the subdomains of a domain.
+* Verifying the validity and expiration date of the certificate.
+* Identifying the domain names associated with the same certificate.
+
+---
+
+### 🧠 Practical steps to gather information
+
+#### ✅ Step One:
+
+* Manually visit the site (Active Recon).
+* Check:
+
+* Pages (Login, Register, Contact)
+* JavaScript or Client-Side Code
+* Headers and Hidden Information
+
+#### ✅ Step Two:
+
+* Start gathering information from the previous tools (Passive Recon):
+
+* Shodan → Find IPs, Ports, and Services.
+* Censys → Check the Version and Operating System.
+* crt.sh → Extract the Subdomains List.
+
+---
+
+### ⚠️ Important Notes
+
+* The domains or subdomains you are checking must be listed within the Scope allowed by the project owner.
+* Services outside this scope (even if they are technically related) may not be checked to avoid legal issues.
+
+---
+
+### 📎 Useful Links
+
+* [Shodan](https://www.shodan.io/)
+* [Censys](https://search.censys.io/)
+* [crt.sh](https://crt.sh/)
+
+---
+
+### 🎯 Ultimate Goal
+
+> Expand the scope of **Attack Surface** by identifying:
+
+* Systems used
+* Services available
+* Open ports
+* Potential vulnerabilities
