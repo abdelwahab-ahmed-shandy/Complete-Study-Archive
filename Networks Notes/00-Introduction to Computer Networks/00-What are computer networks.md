@@ -136,3 +136,7 @@ This introductory presentation prepares the learner to understand more complex t
 ## Conclusion
 
 These concepts are the foundation for understanding computer network infrastructures. Moving on to more complex topics will build on this basic understanding, so it's essential to fully grasp these principles before delving into advanced technical details.
+
+---
+
+### By Abdelwahab Shandy 
