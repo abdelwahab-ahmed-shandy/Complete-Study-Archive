@@ -265,4 +265,4 @@ git clone https://github.com/darkoperator/dnsrecon.git
 
 ---
 
-Prepared by: Abdelwahab Shandy
+### By Abdelwahab Shandy 

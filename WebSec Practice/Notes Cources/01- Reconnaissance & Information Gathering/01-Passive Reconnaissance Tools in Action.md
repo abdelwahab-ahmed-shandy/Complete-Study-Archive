@@ -212,3 +212,7 @@ site:example.com filetype:log intext:password
 
 - ❌ Do not send phishing or fake emails unless authorized.
 - ✅ This stage is for information gathering only — no direct interaction with the system is permitted without authorization.
+
+---
+
+### By Abdelwahab Shandy 

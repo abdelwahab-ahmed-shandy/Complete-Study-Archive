@@ -239,3 +239,7 @@ Base64UrlEncode(header) + "." + Base64UrlEncode(payload)
 - Compares signature with known secret or public key.
 - If valid → Accept the token  
   If not → Reject the token
+
+---
+
+### By Abdelwahab Shandy 

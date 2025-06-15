@@ -141,3 +141,7 @@
 - `403 Forbidden` – Access Denied  
 - `404 Not Found` – Resource Not Found  
 - `500 Internal Server Error` – Server-side Failure  
+
+---
+
+### By Abdelwahab Shandy 

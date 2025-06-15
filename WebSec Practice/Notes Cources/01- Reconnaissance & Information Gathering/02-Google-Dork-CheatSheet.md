@@ -156,4 +156,6 @@ inurl:"/admin/view.cgi"
 
 - ⚠️ Never use these skills against websites without formal written permission.
 
---
+---
+
+### By Abdelwahab Shandy 
