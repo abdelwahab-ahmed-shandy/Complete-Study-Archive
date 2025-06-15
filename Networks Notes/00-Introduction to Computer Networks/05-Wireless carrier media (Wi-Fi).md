@@ -224,3 +224,7 @@ Wireless networks represent a revolution in the world of communications, providi
 ## Conclusion
 WiFi remains the preferred choice for wireless networks in homes and offices due to its flexibility and ease of installation, but it requires special care in terms of security and planning to avoid performance issues and interference.
 Cellular networks, Bluetooth, and infrared serve specialized purposes that complement the wireless communications system depending on the need and location.
+
+---
+
+### By Abdelwahab Shandy 

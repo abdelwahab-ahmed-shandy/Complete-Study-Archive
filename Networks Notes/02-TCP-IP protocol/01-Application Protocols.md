@@ -187,3 +187,7 @@ An encrypted version of HTTP that uses SSL/TLS to ensure privacy and data protec
 - How to use tools like nslookup, dig, ftp, and telnet.
 - The difference between mail protocols (IMAP vs. POP3).
 - Manually configure DHCP for advanced networking tasks.
+
+---
+
+### By Abdelwahab Shandy 

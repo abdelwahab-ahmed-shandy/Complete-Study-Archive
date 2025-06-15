@@ -92,3 +92,7 @@ netstat -b      # عرض البرامج المسؤولة عن كل اتصال
 | NSLookup | اختبار استجابة خادم DNS              | Layer 7 - Application |
 | Route    | فحص جدول التوجيه المحلي              | Layer 3 - Network     |
 | Netstat  | مراقبة الجلسات والمنافذ المفتوحة     | Layer 4 - Transport   |
+
+---
+
+### By Abdelwahab Shandy 

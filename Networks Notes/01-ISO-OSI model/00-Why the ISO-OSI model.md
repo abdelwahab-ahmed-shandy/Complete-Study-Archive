@@ -153,4 +153,8 @@ In the world of networks, different devices face difficulties communicating with
 ---
 
 ## Summary
-The OSI model is the conceptual and methodological framework that organized the science of networking, facilitated its development, and ensured the compatibility of different systems across the world. Without it, networks would remain isolated and incompatible, hindering global technological progress.
+The OSI model is the conceptual and methodological framework that organized the science of networking, facilitated its development, and ensured the compatibility of different systems across the world. Without it, networks would remain isolated and incompatible, hindering global technological progress.---
+
+---
+
+### By Abdelwahab Shandy 

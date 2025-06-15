@@ -203,3 +203,7 @@ Wired transmission media represent the foundation of computer networks worldwide
 - Security against environmental interference.
 
 As technology advances, optical fiber continues to dominate long-distance networks, while copper cables remain the preferred choice for short- and medium-distance networks due to their affordability and ease of installation.
+
+---
+
+### By Abdelwahab Shandy 

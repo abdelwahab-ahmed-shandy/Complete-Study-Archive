@@ -145,3 +145,7 @@ The transport layer handles applications, while the network layer handles device
 2. When making a video call:
 - The transport layer (UDP) sends data quickly without ensuring sequence.
 - The network layer (IP) routes packets according to the destination address, with the possibility of loss or randomization.
+
+---
+
+### By Abdelwahab Shandy 

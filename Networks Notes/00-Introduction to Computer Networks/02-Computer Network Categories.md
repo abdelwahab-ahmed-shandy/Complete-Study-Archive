@@ -234,3 +234,7 @@ The choice of network class depends on:
 ✅ **MAN** for large cities and enterprises
 ✅ **WAN** for global communications
 ✅ **SAN** for data centers and specialized storage
+
+---
+
+### By Abdelwahab Shandy 

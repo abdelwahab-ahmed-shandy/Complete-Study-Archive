@@ -180,3 +180,7 @@
 1. When sending a file over a LAN:
 - The data link layer (MAC) adds the MAC address of the sender and receiver and validates the frames (FCS).
 - The physical layer converts the frames into electrical signals and sends them over the cable to the other device.
+
+---
+
+### By Abdelwahab Shandy 

@@ -178,3 +178,7 @@ All devices connected to the same AP share the same domain, making collisions po
 ## Summary
 
 The access point is a vital component of modern wireless networks, acting as an intermediary between mobile devices and the wired infrastructure, while providing the security, control, and scalability features essential to any effective network environment.
+
+---
+
+### By Abdelwahab Shandy 

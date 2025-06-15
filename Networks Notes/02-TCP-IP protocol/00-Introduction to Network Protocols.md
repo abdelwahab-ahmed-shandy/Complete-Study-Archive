@@ -129,3 +129,7 @@ It consists of **only 4 layers**:
 | Layer | Popular Protocols | Function |
 |- ... |--------------------|----------------- ... - The roles of TCP and IP in controlling connections and routing data.
 - How to analyze network traffic using tools like Wireshark.
+
+---
+
+### By Abdelwahab Shandy 

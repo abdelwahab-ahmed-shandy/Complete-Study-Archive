@@ -152,3 +152,7 @@
 |- ... These layers provide logical control at the software level, not at the physical hardware level.
 
 The presentation layer is rarely separate in some modern protocols, but it exists conceptually.
+
+---
+
+### By Abdelwahab Shandy 
