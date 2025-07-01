@@ -1,455 +1,505 @@
-# Computer NetworksFundamentals :
+# Computer Networks Fundamentals
 
-### References :
-Books : 
-	- Cisco Student Guide ICND1
-	- CompTIA Network N10-006 Cert Guide
-	- Data and Computer Communications - William Stallings 8th Edition
-	- TCP/IP Protocol Suite -   Behrouz A. Forouzan 4th Edition
-	- Understanding IPv6 –    Joseph Davies 2nd Edition
+### References:
 
----
+**Books:**
 
-Objective : 
-
-- Introduction to Computer Networks 
-- OSI Model
-- TCP/IP Model
-- Ethernet Protocol
-- Network Devices
-- Network media
-- Introduction to Wireless Networks 
-- Security Fundamentals
+* Cisco Student Guide ICND1
+* CompTIA Network N10-006 Cert Guide
+* Data and Computer Communications - William Stallings, 8th Edition
+* TCP/IP Protocol Suite - Behrouz A. Forouzan, 4th Edition
+* Understanding IPv6 – Joseph Davies, 2nd Edition
 
 ---
 
-## What is the Computer Network ?
+## Objective:
 
-- Computer Network : 
-a collection of computers, and other devices, or peripherals connected together through connecting media to perform certain task such asshare resources
-
-## Benefits of Computer Networks :
-
-- Resources Sharing 
-	. File Sharing 
-	. Devices Sharing 
-	. Software Sharing with multi-user licenses.
-	. Voice and Video calls 
-
-- Shared Internet Access 
-
-## Basic Network Terminologies :
-
-- NIC (Network Interface Card): The hardware that plugs into the motherboard and directly access the network
-
-- Mac address: Physical Address, Unique address over the world burned on the  NIC card
-
-- IP address :Logical Address, identify each device on an IP network layer
-
-- Protocols : Communication rules that all entity must agree on
-
-## Basic Network Terminologies :
-
-- Hub : Allow different nodes to communicate with each other at the same network(Slow the network)
-
-- Switch : Allow different nodes to communicate with each other at the same network and time without slowing each other
-
-
-- Router : Allow different networks to communicate with each other 
+* Introduction to Computer Networks
+* OSI Model
+* TCP/IP Model
+* Ethernet Protocol
+* Network Devices
+* Network Media
+* Introduction to Wireless Networks
+* Security Fundamentals
 
 ---
 
-# How to apply networks ?? 
+## What is a Computer Network?
 
-### Networks Classifications :
+* A computer network is a collection of computers and other devices or peripherals connected together through communication media to perform tasks such as **resource sharing**.
 
-- According to Covered Area
-	How large is the network?
+## Benefits of Computer Networks:
 
-- According to network topology
-	How the computer are connected?
+* Resource Sharing:
 
-- According to network model
-	What type of model?
+  * File Sharing
+  * Device Sharing
+  * Software Sharing
+  * Voice and Video Communication
 
-According to Covered Area ( PAN – MAN - WAN - INTERNET )
+* Shared Internet Access
 
+## Basic Network Terminologies:
 
-## According to Covered Area :
-
-- Personal Area Networks (PAN)
-	- A computer network for interconnecting devices centered on an individual person's workspace.
-	- A PAN provides data transmission among devices such as computers, smartphones, tablets and personal digital assistants
-
-- Local Area Networks (LAN) :
-
-	- a group of computers connected in small geographical area
-	- a limited area such as a residence, school, laboratory, university campus or office building
-	- Allow users to share files and services
-	- High speed of communications
-	- Under your administrative Control
-
-- Metropolitan Area Networks (MAN) : 
-
-	- A MAN connects an area larger than a LAN but smaller than a WAN
-	- such as a city.
-	- dedicated or high-performance hardware 
-
-- Wide Area Networks (WAN) :
-
-	- A WAN is a group of computers connected in Large geographical area such as country 
-	- A WAN often connects two LANs (WAN Link)
-	- Very low Speed
-	- Under your ISP Administrative control
-
-- Internet (WWW) :
-	- The internet is defined as a global mesh of interconnected networks
-	- the most used service on the Internet is the World Wide Web 
-	- No one actually owns the Internet
-	- Many Orgs, ISPs, Companies, Govs own pieces of Internet Infrastructure.
-		. ISOC: Internet Society
-		. IETF: Internet Engineering Task Forum 
-		. ICANN: Internet Corporation for Assigned Names and Numbers 
+* **NIC (Network Interface Card):** A hardware device plugged into the motherboard that provides access to the network.
+* **MAC Address:** A unique physical address burned into the NIC card.
+* **IP Address:** A logical address that identifies each device in an IP network.
+* **Protocols:** A set of communication rules that all devices must follow.
 
 ---
 
-# Network Topology :
+## How to Apply Networks?
 
-### According to Network Topology ( Bus – Star - Ring - Mesh- Hybrid )
+### Network Classifications:
 
-- Topology 
-	- refers to the shape of a network, or the network's layout.
+* By Geographic Area:
 
-	- Two types of Network topologies:
+  * PAN – LAN – MAN – WAN – Internet
 
-	- The physical topology: physical way ( how computers connected to each other physically :_wired or wireless)
+* By Network Topology:
 
-	- The logical topology: the way the he message are sent. ( how to send message from device to other)
+  * Bus – Star – Ring – Mesh – Hybrid
 
-	- The choice of topology is dependent upon :
-		. Type and number of equipment being used
-		. Cost 
+* By Network Model:
 
-	- Each topology has its own advantages and disadvantages.
+  * Peer-to-Peer
+  * Client/Server
 
 ---
 
-## Bus Topology :
-- All devices are connected to a central cable, called the bus or backbone
-- Both ends of the network must be terminated with a terminator. 
-- A barrel connector can be used to extend the network. 
+## Network Types by Geographic Area:
 
-### Frame Transmission - Bus LAN :
+### 1. PAN (Personal Area Network):
 
-- The backbone functions as a shared communication medium 
-- Device wanting to communicate with another device on the network sends a message onto the backbone
-- The message is heard by all stations, but only the intended recipient actually accepts and processes the message. 
-- Terminator absorbs frames at end of medium
+* A network around a person’s workspace for connecting devices like phones, printers, and laptops.
 
-### Bus Advantages and Disadvantages :
+### 2. LAN (Local Area Network):
 
-- Advantages :
-	. Simple, easy to use and construct
-	. Requires least amount of cable (less expensive)
-	. Reliable
-- Disadvantages :
-	. A faulty cable take the entire LAN down 
-	. Difficult to troubleshoot
-	. No security
-	. Slow during peak traffic period
+* A group of computers in a small geographic area (e.g., office, university).
+* High-speed communication.
 
----
+### 3. MAN (Metropolitan Area Network):
 
-## Star Topology : 
+* Covers a larger area than LAN but smaller than WAN (e.g., city).
+* Requires high-performance hardware.
 
-- All the devices are connected to a centralized unit such as a Hub or Switch. 
+### 4. WAN (Wide Area Network):
 
-- Nodes communicate across the network by passing data through the central device. 
+* Covers large geographic areas (e.g., country).
+* Connects LANs through ISPs.
+* Lower speed.
 
+### 5. Internet:
 
-### Star Topology types : 
+* Global mesh of interconnected networks.
+* Main service: World Wide Web (WWW).
+* Owned by many organizations, including:
 
-- Hubbed Star ( Broadcasted Star Topology)
-	. Central node can broadcast (Hub)
-		- Physical star, logically bus
-		- Only one station can transmit at a time
-
-- Switched Star 
-	. Central node can act as frame switch 
-		- Retransmits only to destination
+  * ISOC, IETF, ICANN.
 
 ---
 
-## Ring Topology :
+## Network Topology:
 
-- A cable connects one node to another to form a ring (shape of a closed loop)
-- each device is connected directly to two other devices, one on either side of it. 
+### 1. Bus:
 
-- All messages travel through a ring in the same direction 
-- token is used to transmit data and pass over each station
+* All devices connect to a central cable (backbone).
+* Messages are sent to all; only the recipient processes it.
 
-### Frame Transmission - Ring LAN :
+**Advantages:** Simple, low cost.
 
-- Data transmitted in frames (token)
-	. Circulate past all stations
-	. Destination recognizes address and copies frame
-	. Data is passed one way from device to device. 
-	. Frame circulates back to source where it is removed
-	. Medium access control determines when station can insert frame
+**Disadvantages:** One cable failure disrupts the network, hard to troubleshoot.
 
-### Ring Advantages and Disadvantages :
+### 2. Star:
 
-- Advantages:
-	. Fair (Equal access for all users)
-	. Perform well under heavy traffic
-- Disadvantages
-	. Network expansion or reconfiguration will affect the network operation
-	. If one node fails, the entire network fails
-	. Difficult to troubleshoot
-	. very bad if we have about 60 pc, Slow Network
+* Devices connect to a central unit (Hub/Switch).
 
----
+**Types:**
 
-## Mesh Topology : 
+* Hubbed Star: Hub broadcasts to all.
+* Switched Star: Switch sends to specific device.
 
-- Each device/PC is connected to every other device/PC in the network by its own cable 
-- Amount of cables needed can be calculated by: 
-	CN = (D * (D-1)) / 2 (where CN is Cables Needed, and D is the amount of devices on the network) 
-- Mesh Types
- 	. Full Mesh
- 	. Partial Mesh
+### 3. Ring:
 
-### Mesh Advantages and Disadvantages :
+* Devices form a closed loop.
+* Messages travel in one direction using a token.
 
-- Advantages:
-	. Mesh topology boasts the highest fault tolerance of all of the network topologies
-	. Redundancy exist
-	. Secure
-- Disadvantages
-	. Because each connection needs its own cable a Mesh topology can get very expensive
+**Disadvantages:** Failure in one node disrupts the whole network.
 
---- 
+### 4. Mesh:
 
-## Hybrid Topology :
+* Every device connects to every other device.
+* Cable calculation: $CN = \frac{D \times (D - 1)}{2}$
+* **Types:** Full Mesh, Partial Mesh
 
-- Hybrid means that there is more than one topology exist
-- Combine bus ,star and ring topologies
-- Allow network expansion 
-- Flexible
+**Disadvantages:** Expensive due to cabling.
 
-### Hybrid Advantages and Disadvantages : 
+### 5. Hybrid:
 
-- Advantages:
-	. Network expansion is simple
-- Disadvantages
-	. If hub fails connections between failed hub and other hubs will fail
+* Combination of two or more topologies.
+* Flexible and allows easy expansion.
 
 ---
 
-# According to Network Model :
+## By Network Model:
 
-- Peer to Peer Networks
-- Client/Server Networks
+### Peer-to-Peer:
 
+* No dedicated servers.
+* All nodes are equal.
 
-### Peer-to-Peer Networks: 
+**Example:** Windows Workgroup
 
-- No dedicated resources to present specific service
-- Easy to work with 
-- All nodes are the same (equal to use the resources )
-	. Example : Windows Workgroup
+### Client/Server:
 
-### Client/Server Networks :
+* Servers provide services to client nodes.
+* Fewer servers than clients.
 
-- Some nodes (SERVER) are dedicated to present services to other nodes (CLIENTS)
-- Server is more powerful
+**Examples:**
 
-Examples: 
-	. Mail Server
-	. Web Server
-	. File Server 
-	. Print Server
-
-- Computers providing the service are called Servers
-- Computers that request and use the service are called Client computers. 
-- Number of servers is very small compared with the number of clients
-
-### Peer to peer vs client/server model :
+* Mail Server
+* Web Server
+* File Server
+* Print Server
 
 ---
 
-# Building the network :
+## Building the Network:
 
-## What do you need to build your network? 
+### Basic Network Elements:
 
-### Basic Network Elements :
+**Hardware:**
 
-- Hardware
-	- Computers / Peripherals
-	- NICs
-	- Connecting Media
-	- Networking Device(s)
-		. Routers
-		. Switches
-		. Hubs 
-- Software
-	-Protocols
-		. Communication rules that all entity must agree on
+* Computers/Peripherals
+* NICs
+* Transmission Media (Wired/Wireless)
+* Networking Devices: Routers, Switches, Hubs
 
-### Basic Network Elements ( Hardware / Software ) 
+**Software:**
 
-- Hardware :
-	- Devices used to communicate with one another
-		. Computers – Printers –Phone – Routers - Switches
-- Medium how the devices are connected together
-		. Wired  -Wireless –Satellites
-- Software :
-
-- Messages Information that travels over the medium
-	. Mails-WhatsApp….etc
-- Protocols Governs how messages flow across network
-	. http –https-ftp-rdp
+* Protocols (rules for communication)
+* Messages (emails, chats, etc.)
 
 ---
 
-# Basic Network Elements (Software)
+## Protocols:
 
-What is Protocols ?
+* Define rules for communication.
+* Required for managing message flow and efficiency.
 
-- Communication rules that all entity must agree on it 
-- Method to connect internetworking elements
+**Examples:**
 
-Why we need Protocols ?
+* HTTP, HTTPS, FTP, RDP
 
-- To communicate efficiently
-- Control the messages and the messages quantity in the network
+---
 
---- 
+## OSI Model:
 
-# Open Systems Interconnection Reference Model OSI RM
+* Developed by ISO in 1983.
 
-OSI Reference Model
+### Benefits of OSI Model:
 
-- OSI: Open Systems Interconnect
-- OSI/RM was defined by ISO in 1983
-	. International Organization for Standardization 
+* Reduces complexity.
+* Standardizes interfaces.
+* Enables multi-vendor compatibility.
+* Easier maintenance and learning.
 
-- OSI Three practical functions
-	. Give developers universal concepts so they can develop protocols
-	. Explain the framework used to connect heterogeneous systems (Client/server can communicate even if they have different OS)
-	. Describes the process of packet creation
+### The Seven Layers:
 
-- The OSI reference model breaks this approach into layers.
+| No. | Layer            | Main Function                                                  |
+| --- | ---------------- | -------------------------------------------------------------- |
+| 7   | **Application**  | User interaction (HTTP, FTP, etc.)                             |
+| 6   | **Presentation** | Data conversion, encryption, and compression                   |
+| 5   | **Session**      | Session management between systems                             |
+| 4   | **Transport**    | Reliable data transport, error recovery                        |
+| 3   | **Network**      | Routing and logical addressing (IP)                            |
+| 2   | **Data Link**    | Frame creation, MAC addressing, error detection                |
+| 1   | **Physical**     | Physical signal transmission over media (cables, radio, fiber) |
 
-### Benefits of using a layered model :
+---
 
-- It divides the network communication process into Layers, so easier to troubleshooting.
-- It allows multiple-vendor development through standardization of network components.
-- It allows various types of network hardware and software to communicate.
-- Changes in one layer do not affect other layers because of layer separation 
-- Layers interact with each other.
+### Layer Functions:
 
-## Why a Layered Network Model?
+* **Application:** Interfaces with user applications.
+* **Presentation:** Translates and encrypts data.
+* **Session:** Establishes, manages, and terminates sessions.
+* **Transport:** Segments and delivers data reliably.
+* **Network:** Routes packets using IP addresses.
+* **Data Link:** Ensures error-free frame transmission.
+* **Physical:** Converts bits into signals and vice versa.
 
-- Reduces complexity
-- Standardizes interfaces
-- Facilitates modular engineering
-- Simplifies teaching and learning
+---
 
+## Data Encapsulation and De-Encapsulation:
 
-## الطبقات السبع لنموذج OSI:
-
-| رقم | الطبقة            | الوظيفة الأساسية                                           |
-|----|-------------------|----------------------------------------------------------|
-| 7  | **Application**    | تفاعل المستخدم مع التطبيق (مثل HTTP, FTP, SMTP).          |
-| 6  | **Presentation**   | تحويل البيانات (تشفير، ضغط، تحويل الصيغ).                  |
-| 5  | **Session**        | إدارة الجلسات (بدء، إنهاء، التحكم بالجلسات بين الأنظمة).     |
-| 4  | **Transport**      | النقل الموثوق للبيانات (مثل TCP/UDP).                     |
-| 3  | **Network**        | التوجيه وتحديد العناوين (IP Addressing, Routing).          |
-| 2  | **Data Link**      | التحكم في الوصول إلى الوسيط وإطار البيانات (MAC, Ethernet). |
-| 1  | **Physical**       | نقل الإشارات الفعلية عبر الوسيط (كابلات، موجات، ألياف ضوئية). |
-
-
---- 
-
-# The Seven Layers Functions (Cont.) 
-
-## Application Layer :
-	- Interface to end users
-	- File transfer
-	- Network management
-	- Email 
-	- Many other services
-
-- Protocols :
-	. HTTP (Hyper Text Transfer Protocol)
-	. FTP (File transfer Protocol)
-	. SMTP (Simple Mail transfer Protocol)
-	. POP3 (Post office transfers Protocol)
-	. Telnet/SSH (secure Shell)
-	. RTP (Real-time Protocol)
-
-
-## Presentation Layer :
-- Finding common presentation between source and Destination
-- Provide transformation of data to support standardized application interface
-- Coding or Translation of data (ex: EBCDIC to ASCII)
-
-## Session Layer :
-
-- Establishes, manages and terminates sessions (connections) between cooperating applications
-- Synchronization (add checkpoints into a stream of data) 
-- Controls the sessions between the local and remote applications
-
-
-## Transport Layer :
-- Organize data into Segments
-- Provide reliable transport between end systems (source and destination hosts)
-- End-to-end error recovery
-- End-to-end flow control
-
-
-## Network Layer :
-- Organize data into datagram (packets)
-- It is responsible for the Internet Protocol Addressing (IP) (Addressing)
-- It know the best path for the destination (Routing)
-- End-to-end Addressing 
-
-
-## Data link Layer :
-- Reliable data transfer across a physical link (Error Control)
-- Organize the data into Frames, to be put on the physical medium
-- Check the Frame For errors
-- Hop to hop addressing
-
-
-## Physical Layer :
-- Transmission of unstructured bit stream over the physical link
-- Deals with the mechanical and electrical specifications of the interface and transmission media (cables and connectors)
-- Representation of bits
-
-===========================================
-
-Sender => Data Encapsulation
-
-Receiver <= Data De-Encapsulation
-
-
-	    Sender 				  Receiver 
-|----|--------------------|		|----|--------------------|
-| 7  | **Application**    |		| 7  | **Application**    |  
-| 6  | **Presentation**   |		| 6  | **Presentation**   | 
-| 5  | **Session**        |		| 5  | **Session**        | 
-| 4  | **Transport**      |---Segments--| 4  | **Transport**      |
-| 3  | **Network**        |---Packets---| 3  | **Network**        | 
-| 2  | **Data Link**      |----Frames---| 2  | **Data Link**      | 
-| 1  | **Physical**       |		| 1  | **Physical**       |
-	    |					     |
-	    |--------------------Bits------------------|
-
+| Sender                     | Receiver           |
+| -------------------------- | ------------------ |
+| Application Layer          | Application Layer  |
+| Presentation Layer         | Presentation Layer |
+| Session Layer              | Session Layer      |
+| Transport Layer (Segments) | Transport Layer    |
+| Network Layer (Packets)    | Network Layer      |
+| Data Link Layer (Frames)   | Data Link Layer    |
+| Physical Layer (Bits)      | Physical Layer     |
 
 ---
 
 ---
 
-### By Abdelwahab Shandy 
+---
+
+---
+
+
+# أساسيات شبكات الحاسوب (Computer Networks Fundamentals)
+
+### المراجع:
+
+**كتب:**
+
+* Cisco Student Guide ICND1
+* CompTIA Network N10-006 Cert Guide
+* Data and Computer Communications - William Stallings الإصدار الثامن
+* TCP/IP Protocol Suite - Behrouz A. Forouzan الإصدار الرابع
+* Understanding IPv6 – Joseph Davies الإصدار الثاني
+
+---
+
+## الهدف:
+
+* مقدمة في شبكات الحاسوب
+* نموذج OSI
+* نموذج TCP/IP
+* بروتوكول الإيثرنت
+* أجهزة الشبكة
+* وسائط الشبكة
+* مقدمة في الشبكات اللاسلكية
+* أساسيات الأمان
+
+---
+
+## ما هي شبكة الحاسوب؟
+
+* شبكة الحاسوب:
+  هي مجموعة من الحواسيب والأجهزة الطرفية الأخرى المتصلة ببعضها من خلال وسائط اتصال بهدف تنفيذ مهام معينة مثل **مشاركة الموارد**.
+
+## فوائد شبكات الحاسوب:
+
+* مشاركة الموارد:
+
+  * مشاركة الملفات
+  * مشاركة الأجهزة
+  * مشاركة البرمجيات
+  * المكالمات الصوتية والمرئية
+
+* مشاركة الاتصال بالإنترنت
+
+## المصطلحات الأساسية في الشبكات:
+
+* **NIC (Network Interface Card):** بطاقة توصيل الشبكة، تركب على اللوحة الأم وتستخدم للاتصال بالشبكة.
+* **Mac Address:** العنوان الفيزيائي الفريد لكل بطاقة NIC، لا يتكرر عالميًا.
+* **IP Address:** العنوان المنطقي، يستخدم للتعريف بكل جهاز على الشبكة.
+* **Protocol:** مجموعة من القواعد التي تنظم الاتصال بين الأجهزة.
+
+---
+
+## كيفية تطبيق الشبكات؟
+
+### تصنيف الشبكات:
+
+* حسب النطاق الجغرافي:
+
+  * PAN – LAN – MAN – WAN – Internet
+
+* حسب الطوبولوجيا (Network Topology):
+
+  * Bus – Star – Ring – Mesh – Hybrid
+
+* حسب نموذج الشبكة:
+
+  * Peer-to-Peer
+  * Client/Server
+
+---
+
+## أنواع الشبكات حسب النطاق:
+
+### 1. شبكة PAN:
+
+* تربط الأجهزة الشخصية لمساحة صغيرة حول فرد واحد (مثل الهواتف، الطابعات، اللابتوب).
+
+### 2. شبكة LAN:
+
+* شبكة محلية في نطاق جغرافي صغير (مثل مكتب أو جامعة).
+* تسمح بمشاركة الملفات والخدمات.
+* سرعة اتصال عالية.
+
+### 3. شبكة MAN:
+
+* تغطي مدينة أو جزء منها.
+* تعتمد على أجهزة أداء عالي.
+
+### 4. شبكة WAN:
+
+* تغطي مناطق جغرافية واسعة مثل دولة.
+* توصل بين شبكتين LAN عبر مزود خدمة الإنترنت (ISP).
+* سرعة أقل.
+
+### 5. الإنترنت:
+
+* شبكة عالمية مترابطة.
+* أهم خدمة عليها: World Wide Web.
+* لا يملكها أحد بالكامل، إنما تملكها منظمات وشركات:
+
+  * ISOC، IETF، ICANN.
+
+---
+
+## طوبولوجيا الشبكات:
+
+### 1. Bus:
+
+* الأجهزة تتصل بكابل رئيسي (Backbone).
+* الرسائل تنتقل للجميع، ويستجيب المستهدف فقط.
+
+**المزايا:** بسيطة، قليلة التكلفة.
+
+**العيوب:** خلل بسيط يوقف الشبكة، صعوبة في التشخيص، لا يوجد أمان.
+
+### 2. Star:
+
+* كل الأجهزة تتصل بجهاز مركزي (Hub أو Switch).
+
+* **أنواع:**
+
+  * Hubbed Star: نقل البيانات يتم عبر Hub (بث).
+  * Switched Star: نقل البيانات يتم عبر Switch (انتقائي).
+
+### 3. Ring:
+
+* الأجهزة تتصل على شكل حلقة مغلقة.
+* الرسائل تسير في اتجاه واحد.
+* يتم استخدام **Token** للنقل.
+
+**العيوب:** تأثر الشبكة بفشل أي جهاز، صعبة التوسعة.
+
+### 4. Mesh:
+
+* كل جهاز متصل بجميع الأجهزة الأخرى.
+* المعادلة: $CN = \frac{D \times (D - 1)}{2}$
+* **أنواع:** Full Mesh – Partial Mesh
+
+**العيوب:** تكلفة مرتفعة بسبب عدد الكابلات.
+
+### 5. Hybrid:
+
+* دمج لأكثر من طوبولوجيا.
+* يسمح بالمرونة وسهولة التوسع.
+
+---
+
+## حسب نموذج الشبكة:
+
+### Peer to Peer:
+
+* لا يوجد جهاز مركزي.
+* جميع الأجهزة متساوية.
+
+**مثال:** Windows Workgroup
+
+### Client/Server:
+
+* خوادم تقدم خدمات للعملاء.
+* عدد السيرفرات قليل مقارنة بعدد العملاء.
+
+**أمثلة:**
+
+* Mail Server
+* File Server
+* Print Server
+
+---
+
+## بناء الشبكة:
+
+### العناصر الأساسية:
+
+**المكونات المادية:**
+
+* أجهزة الحاسوب والطابعات.
+* كروت الشبكة.
+* وسائط الاتصال (سلكية أو لاسلكية).
+* أجهزة الشبكة: (Router – Switch – Hub)
+
+**المكونات البرمجية:**
+
+* البروتوكولات
+* الرسائل (مثل البريد الإلكتروني، WhatsApp)
+
+---
+
+## البروتوكولات:
+
+* قواعد الاتصال.
+* نحتاجها لضبط تدفق البيانات والتحكم بها.
+
+**أمثلة:**
+
+* HTTP – HTTPS – FTP – RDP
+
+---
+
+## نموذج OSI:
+
+* أنشأته منظمة ISO في 1983.
+
+### مزايا النموذج:
+
+* تقليل التعقيد.
+* سهولة الصيانة.
+* دعم تعدد البائعين.
+* فصل بين الطبقات.
+
+### الطبقات السبع:
+
+| رقم | الطبقة           | الوظيفة الأساسية                         |
+| --- | ---------------- | ---------------------------------------- |
+| 7   | **Application**  | تفاعل المستخدم مع التطبيقات (HTTP, FTP)  |
+| 6   | **Presentation** | تحويل البيانات والتشفير                  |
+| 5   | **Session**      | إدارة الجلسات بين الأنظمة                |
+| 4   | **Transport**    | التحكم في النقل والتأكد من وصول البيانات |
+| 3   | **Network**      | التوجيه وعناوين IP                       |
+| 2   | **Data Link**    | التحكم في الوصول ونقل الإطارات           |
+| 1   | **Physical**     | الإرسال الفيزيائي للإشارات               |
+
+### وظائف كل طبقة:
+
+* **Application:** واجهة المستخدم.
+* **Presentation:** تحويل الترميز.
+* **Session:** إدارة الاتصال.
+* **Transport:** تجزئة البيانات وضمان الاستلام.
+* **Network:** التوجيه والعناوين.
+* **Data Link:** كشف الأخطاء.
+* **Physical:** إرسال الإشارات عبر الكابلات أو اللاسلكي.
+
+---
+
+## عملية التغليف (Encapsulation) وفك التغليف (De-Encapsulation):
+
+| المرسل                     | المستقبل           |
+| -------------------------- | ------------------ |
+| Application Layer          | Application Layer  |
+| Presentation Layer         | Presentation Layer |
+| Session Layer              | Session Layer      |
+| Transport Layer (Segments) | Transport Layer    |
+| Network Layer (Packets)    | Network Layer      |
+| Data Link Layer (Frames)   | Data Link Layer    |
+| Physical Layer (Bits)      | Physical Layer     |
+
+---
+
+*BY: Abdelwahab Shandy*
+
+
+
