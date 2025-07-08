@@ -22,16 +22,16 @@
 ---
 ### 🔗 Connecting via SSH
 ```
-[abeer@client ~]$ ssh 192.168.1.10
+[abdo@client ~]$ ssh 192.168.1.10
 # Connect to the server via SSH using the IP address
 
-[abeer@client ~]$ ssh abeer@192.168.1.10
+[abdo@client ~]$ ssh abdo@192.168.1.10
 # Connect to the server as a specific user
 
-[abeer@client ~]$ ssh abeer@192.168.1.10 hostname
+[abdo@client ~]$ ssh abdo@192.168.1.10 hostname
 # Execute a direct command on the server via SSH
 
-[abeer@client ~]$ exit
+[abdo@client ~]$ exit
 # Exit the SSH session
 ```
 ---
@@ -58,9 +58,9 @@ The server's host keys are stored in:
 ### 🗝️ SSH Key-based Authentication
 ```
 [abdo@client ~]$ ssh-copy-id 192.168.1.1
-[abdo@client ~]$ ssh-copy-id abeer@192.168.1.1
-[abdo@client ~]$ ssh-copy-id -p 2020 abeer@192.168.1.1
-[abdo@client ~]$ ssh-copy-id -i ~/ssh/id_rsa.pub abeer@192.168.1.1
+[abdo@client ~]$ ssh-copy-id abdo@192.168.1.1
+[abdo@client ~]$ ssh-copy-id -p 2020 abdo@192.168.1.1
+[abdo@client ~]$ ssh-copy-id -i ~/ssh/id_rsa.pub abdo@192.168.1.1
 ```
 📌 Notes:
 
@@ -75,7 +75,7 @@ The ssh-copy-id command copies the file ~/.ssh/id_rsa.pub by default.
 
 ### 🔍 Check and run SSH on the server
 ```
-[root@server ~]# cd /home/abeer/.ssh/
+[root@server ~]# cd /home/abdo/.ssh/
 # Check the presence of authorized_keys in the user directory
 
 [root@server ~]# ps aux | grep -i ssh
