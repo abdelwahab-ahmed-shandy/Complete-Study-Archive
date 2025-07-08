@@ -159,3 +159,6 @@ Router(config-router)# network 10.0.0.0
 | Updates | Must be manually adjusted | Automatically communicates between devices |
 | Security | More secure | Relatively less secure, depending on the setup |
 
+---
+
+### **By : Abdelwahab SHandy**

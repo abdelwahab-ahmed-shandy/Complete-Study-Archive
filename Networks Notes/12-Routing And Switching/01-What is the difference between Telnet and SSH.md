@@ -99,3 +99,7 @@ In Packet Tracer:
 | Test or training environment | You can use Telnet |
 | You want a secure login | Use SSH with a private key |
 | When using ACLs | Access can be restricted to SSH only |
+
+---
+
+### **By : Abdelwahab SHandy**

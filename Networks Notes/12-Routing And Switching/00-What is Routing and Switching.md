@@ -107,3 +107,7 @@ R1# show ip route 		# Display the routing table
 Switching helps build an organized and fast internal network.
 
 Routing connects this network to the outside world or to other networks.
+
+---
+
+### **By : Abdelwahab SHandy**
