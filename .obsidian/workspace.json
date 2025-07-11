@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "5bf679648c027852",
+    "type": "split",
+    "children": [
+      {
+        "id": "533c1cf6745a4357",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c534d64354a31c14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-OS/Windows Notes/01-Windows System Architecture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01-Windows System Architecture"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "381a906caa048a8d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6a00344da6dd1ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0bd7f320d14057d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "File explorer"
+            }
+          },
+          {
+            "id": "fe20565e581d59bf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1213aa457dea88f0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dd9cf45c8eaefd56",
+    "type": "split",
+    "children": [
+      {
+        "id": "581f912ae1ede9fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6aa45227a098e757",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02-OS/Windows Notes/03-Command Line (CMD & PowerShell) in Windows for Cybersecurity.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 03-Command Line (CMD & PowerShell) in Windows for Cybersecurity"
+            }
+          },
+          {
+            "id": "d3909ed93979b98d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04-LABs/Access Control Vulnerabilities-APPRENTICE-User role can be modified in user profile.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Access Control Vulnerabilities-APPRENTICE-User role can be modified in user profile"
+            }
+          },
+          {
+            "id": "a006d3b9efad14d9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "51dc3470e47119a2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02-OS/Windows Notes/03-Command Line (CMD & PowerShell) in Windows for Cybersecurity.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 03-Command Line (CMD & PowerShell) in Windows for Cybersecurity"
+            }
+          },
+          {
+            "id": "cc0a2d9a54f9bb8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "publish:Publish changes...": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "markdown-importer:Open Markdown importer": false,
+      "audio-recorder:Start/stop recording": false
+    }
+  },
+  "active": "c534d64354a31c14",
+  "lastOpenFiles": [
+    "02-OS/Windows Notes/00-General Introduction to Windows.md",
+    "02-OS/Windows Notes/02-Dealing with the Windows system interface (graphical interface + command line).md",
+    "02-OS/Windows Notes/03-Command Line (CMD & PowerShell) in Windows for Cybersecurity.md",
+    "02-OS/Windows Notes/04-The most important files and internal structures in Windows.md",
+    "README.md",
+    "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/link.write.1.tlog",
+    "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/link.command.1.tlog",
+    "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/link.secondary.1.tlog",
+    "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/link.read.1.tlog",
+    "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/Function Overloading.lastbuildstate",
+    "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/CL.write.1.tlog",
+    "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/Cl.items.tlog",
+    "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/CL.read.1.tlog",
+    "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/CL.command.1.tlog",
+    "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Default Parameters/Default Parameters/Default .dbe89ffd/x64/Debug/Default .dbe89ffd.tlog/link.read.1.tlog",
+    "01-Programing/00_C++/02-C++ Basics/00-Debugging/00-What is Debugging & Why.md",
+    "02-OS/Windows Notes/01-Windows System Architecture.md",
+    "02-OS/Linux Notes/🐧 Comprehensive Linux Review.md",
+    "04-LABs And CTFs/General Information-CyberTalents.md",
+    "04-LABs And CTFs/Linux/Leviathan-level-0.md",
+    "04-LABs And CTFs/Linux/THM-Linux Fundamentals.md",
+    "00-Networks Notes/12-Routing And Switching/06-A complete lab to apply all the concepts you have learned previously.md",
+    "00-Networks Notes/12-Routing And Switching/07-DHCP.md",
+    "00-Networks Notes/12-Routing And Switching/08-Access Control List (ACL).md",
+    "00-Networks Notes/12-Routing And Switching/09-Comprehensive and integrated practical training for networks (ACL + DHCP + DHCP Snooping + Telnet).md",
+    "00-Networks Notes/12-Routing And Switching/05-LAB Static Connecting between different networks.md",
+    "Pasted image 20250709200754.png",
+    "00-Networks Notes/00-Introduction To Computer Networks/00-What Are Computer Networks.md",
+    "13-Tasks In Internship/2025 - Cyber Security @ ITI  Summer Training/01-Advanced Network/Day Four/Task 1.md",
+    "13-Tasks In Internship/2025 - Cyber Security @ ITI  Summer Training/01-Advanced Network/Day Four/Task 2.md",
+    "Pasted image 20250709101319.png",
+    "03-WebSec Practice/Notes Cources/01- Reconnaissance & Information Gathering/04-Tools Information Gathering.md",
+    "03-WebSec Practice/Notes Cources/01- Reconnaissance & Information Gathering/03-Active Reconnaissance Tools.md",
+    "03-WebSec Practice/Notes Cources/01- Reconnaissance & Information Gathering/02-Google-Dork-CheatSheet.md",
+    "00-Networks Notes/11- Network Security/02-Firewalls and Honeypots/00- Introduction To Firewalls.md",
+    "00-Networks Notes/11- Network Security/01-Network segmentation and Monitoring/04-Most Popular Wireshark Filters (Display Filters).md",
+    "00-Networks Notes/11- Network Security/01-Network segmentation and Monitoring/03-Sniffing Tools (TCPDUMP,WIRESHARK).md",
+    "00-Networks Notes/11- Network Security/01-Network segmentation and Monitoring/CH02-infographic.jpg",
+    "00-Networks Notes/12-Routing And Switching/03-LAB VLAN Configuration and Trunking Between Switches.md",
+    "Untitled.canvas",
+    "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-17/Movies & Series Online Store/MovieMart_Test/MovieMart/MovieMart/wwwroot/Assets/Dashboard/assets/img/error-404-monochrome.svg",
+    "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-17/Movies & Series Online Store/MovieMart_Test/MovieMart/MovieMart/wwwroot/Assets/Customer/TvSeries/onepiece.jpg",
+    "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-17/Movies & Series Online Store/MovieMart_Test/MovieMart/MovieMart/wwwroot/Assets/Customer/TvSeries/naruto.jpg",
+    "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-17/Movies & Series Online Store/MovieMart_Test/MovieMart/MovieMart/wwwroot/Assets/Customer/TvSeries/aot.jpg",
+    "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-17/Movies & Series Online Store/MovieMart_Test/MovieMart/MovieMart/wwwroot/Assets/Customer/TvSeries/7b1e3b3e-98d4-489c-833f-522c92e238d9.png",
+    "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-17/Movies & Series Online Store/MovieMart_Test/MovieMart/MovieMart/wwwroot/Assets/Customer/TvSeries/346f377e-ca61-4d2d-b318-dda603dc5cec.png",
+    "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-17/Movies & Series Online Store/MovieMart_Test/MovieMart/MovieMart/wwwroot/Assets/Customer/MoviesPhoto/yourname.jpg"
+  ]
+}
