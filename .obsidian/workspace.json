@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "533c1cf6745a4357",
+        "id": "77cc7beeedaac387",
         "type": "tabs",
         "children": [
           {
-            "id": "c534d64354a31c14",
+            "id": "72ba80c6654fecf2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-OS/Windows Notes/01-Windows System Architecture.md",
+                "file": "02-OS/Windows Notes/00-Famous And Powerful Keyboard Shortcuts In Windows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Windows System Architecture"
+              "title": "00-Famous And Powerful Keyboard Shortcuts In Windows"
             }
           }
         ]
@@ -188,13 +188,37 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "c534d64354a31c14",
+  "active": "72ba80c6654fecf2",
   "lastOpenFiles": [
+    "02-OS/Windows Notes/08-Logs and their analysis in Windows.md",
+    "02-OS/Windows Notes/00-Famous And Powerful Keyboard Shortcuts In Windows.md",
     "02-OS/Windows Notes/00-General Introduction to Windows.md",
-    "02-OS/Windows Notes/02-Dealing with the Windows system interface (graphical interface + command line).md",
-    "02-OS/Windows Notes/03-Command Line (CMD & PowerShell) in Windows for Cybersecurity.md",
+    "02-OS/Windows Notes/07-Windows Firewall.md",
+    "02-OS/Windows Notes/06-The Windows File System (NTFS Permissions And Access Control Lists).md",
+    "02-OS/Windows Notes/05- Accounts and Authorizations (Access Control).md",
     "02-OS/Windows Notes/04-The most important files and internal structures in Windows.md",
+    "01-Programing/Miscellaneous information/01-Tale of Networks and Data.md",
+    "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-18/MovieMarket/wwwroot/lib/jquery-validation/LICENSE.md",
+    "03-WebSec Practice/Notes Cources/01- Reconnaissance & Information Gathering/02-Google-Dork-CheatSheet.md",
+    "02-OS/Linux Notes/RHI123/01-Basics-of-Linux-Commands.md",
+    "02-OS/Linux Notes/RHI123/06-Controlling-Access-to-Files-with-Linux-File-System-Permission.md",
+    "01-Programing/Miscellaneous information/10-What is Business Intelligence  and what is Cube.md",
+    "01-Programing/00_C++/02-C++ Basics/00-Debugging/00-What is Debugging & Why.md",
+    "04-LABs And CTFs/Linux/Linux-OverTheWire-Bandit-Level-0-ToBandit-Level-10.md",
+    "04-LABs And CTFs/Linux/Linux-OverTheWire-Bandit-Level-10-ToBandit-Level-20.md",
+    "00-Networks Notes/03-TCP_IP Model/00-Application Layer/00-Introduction Application Layer.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "00-Networks Notes/12-Routing And Switching/09-Comprehensive and integrated practical training for networks (ACL + DHCP + DHCP Snooping + Telnet).md",
     "README.md",
+    "Pasted image 20250709200754.png",
+    "202507112129.md",
+    "202507112128.md",
+    "00-Networks Notes/00-Introduction To Computer Networks/Introduction to Computer Networks.jpg",
+    "00-Networks Notes/00-Introduction To Computer Networks/00-What Are Computer Networks.md",
+    "02-OS/Windows Notes/03-Command Line (CMD & PowerShell) in Windows for Cybersecurity.md",
+    "02-OS/Windows Notes/02-Dealing with the Windows system interface (graphical interface + command line).md",
+    "02-OS/Windows Notes/01-Windows System Architecture.md",
     "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/link.write.1.tlog",
     "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/link.command.1.tlog",
     "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/link.secondary.1.tlog",
@@ -205,37 +229,14 @@
     "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/CL.read.1.tlog",
     "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/CL.command.1.tlog",
     "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Default Parameters/Default Parameters/Default .dbe89ffd/x64/Debug/Default .dbe89ffd.tlog/link.read.1.tlog",
-    "01-Programing/00_C++/02-C++ Basics/00-Debugging/00-What is Debugging & Why.md",
-    "02-OS/Windows Notes/01-Windows System Architecture.md",
     "02-OS/Linux Notes/🐧 Comprehensive Linux Review.md",
-    "04-LABs And CTFs/General Information-CyberTalents.md",
-    "04-LABs And CTFs/Linux/Leviathan-level-0.md",
-    "04-LABs And CTFs/Linux/THM-Linux Fundamentals.md",
-    "00-Networks Notes/12-Routing And Switching/06-A complete lab to apply all the concepts you have learned previously.md",
-    "00-Networks Notes/12-Routing And Switching/07-DHCP.md",
-    "00-Networks Notes/12-Routing And Switching/08-Access Control List (ACL).md",
-    "00-Networks Notes/12-Routing And Switching/09-Comprehensive and integrated practical training for networks (ACL + DHCP + DHCP Snooping + Telnet).md",
-    "00-Networks Notes/12-Routing And Switching/05-LAB Static Connecting between different networks.md",
-    "Pasted image 20250709200754.png",
-    "00-Networks Notes/00-Introduction To Computer Networks/00-What Are Computer Networks.md",
-    "13-Tasks In Internship/2025 - Cyber Security @ ITI  Summer Training/01-Advanced Network/Day Four/Task 1.md",
-    "13-Tasks In Internship/2025 - Cyber Security @ ITI  Summer Training/01-Advanced Network/Day Four/Task 2.md",
     "Pasted image 20250709101319.png",
-    "03-WebSec Practice/Notes Cources/01- Reconnaissance & Information Gathering/04-Tools Information Gathering.md",
-    "03-WebSec Practice/Notes Cources/01- Reconnaissance & Information Gathering/03-Active Reconnaissance Tools.md",
-    "03-WebSec Practice/Notes Cources/01- Reconnaissance & Information Gathering/02-Google-Dork-CheatSheet.md",
-    "00-Networks Notes/11- Network Security/02-Firewalls and Honeypots/00- Introduction To Firewalls.md",
-    "00-Networks Notes/11- Network Security/01-Network segmentation and Monitoring/04-Most Popular Wireshark Filters (Display Filters).md",
-    "00-Networks Notes/11- Network Security/01-Network segmentation and Monitoring/03-Sniffing Tools (TCPDUMP,WIRESHARK).md",
     "00-Networks Notes/11- Network Security/01-Network segmentation and Monitoring/CH02-infographic.jpg",
-    "00-Networks Notes/12-Routing And Switching/03-LAB VLAN Configuration and Trunking Between Switches.md",
-    "Untitled.canvas",
     "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-17/Movies & Series Online Store/MovieMart_Test/MovieMart/MovieMart/wwwroot/Assets/Dashboard/assets/img/error-404-monochrome.svg",
     "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-17/Movies & Series Online Store/MovieMart_Test/MovieMart/MovieMart/wwwroot/Assets/Customer/TvSeries/onepiece.jpg",
     "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-17/Movies & Series Online Store/MovieMart_Test/MovieMart/MovieMart/wwwroot/Assets/Customer/TvSeries/naruto.jpg",
     "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-17/Movies & Series Online Store/MovieMart_Test/MovieMart/MovieMart/wwwroot/Assets/Customer/TvSeries/aot.jpg",
     "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-17/Movies & Series Online Store/MovieMart_Test/MovieMart/MovieMart/wwwroot/Assets/Customer/TvSeries/7b1e3b3e-98d4-489c-833f-522c92e238d9.png",
-    "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-17/Movies & Series Online Store/MovieMart_Test/MovieMart/MovieMart/wwwroot/Assets/Customer/TvSeries/346f377e-ca61-4d2d-b318-dda603dc5cec.png",
-    "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-17/Movies & Series Online Store/MovieMart_Test/MovieMart/MovieMart/wwwroot/Assets/Customer/MoviesPhoto/yourname.jpg"
+    "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-17/Movies & Series Online Store/MovieMart_Test/MovieMart/MovieMart/wwwroot/Assets/Customer/TvSeries/346f377e-ca61-4d2d-b318-dda603dc5cec.png"
   ]
 }
