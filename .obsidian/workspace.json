@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "58d5d46c502afca4",
+        "id": "aa025650e441da03",
         "type": "tabs",
         "children": [
           {
-            "id": "84bc2545cc7c4009",
+            "id": "8395ef1cc4f1684a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 251.5
   },
   "right": {
     "id": "dd9cf45c8eaefd56",
@@ -184,8 +184,16 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "e0bd7f320d14057d",
+  "active": "8395ef1cc4f1684a",
   "lastOpenFiles": [
+    "03-Sec Practice/Notes Cources/00- Web Security & Penetration Testing Basics/03-Cryptography Basics.md",
+    "03-Sec Practice/Notes Cources/00- Web Security & Penetration Testing Basics/04-Sessions.md",
+    "03-Sec Practice/Notes Cources/00- Web Security & Penetration Testing Basics/00-Chronological order of the development of the Internet and the form of the web page.md",
+    "03-Sec Practice/Notes Cources/00- Web Security & Penetration Testing Basics/01-DNS Works.md",
+    "03-Sec Practice/Notes Cources/00- Web Security & Penetration Testing Basics/02-HTTP Protocol.md",
+    "03-Sec Practice/Base",
+    "03-Sec Practice/Notes Cources/00- Web Security & Penetration Testing Basics/05-Penetration Testing Process.md",
+    "03-Sec Practice/OWASP TOP-10",
     "13-Tasks In Internship/2025 - Cyber Security @ ITI  Summer Training/02-Intro To Cyber/Task 1 - Linux.md",
     "02-OS/Linux Notes/🐧 Comprehensive Linux Review.md",
     "13-Tasks In Internship/2025 - Cyber Security @ ITI  Summer Training/02-Intro To Cyber",
@@ -202,30 +210,21 @@
     "02-OS/Windows Notes/04-The most important files and internal structures in Windows.md",
     "01-Programing/Miscellaneous information/01-Tale of Networks and Data.md",
     "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-18/MovieMarket/wwwroot/lib/jquery-validation/LICENSE.md",
-    "03-WebSec Practice/Notes Cources/01- Reconnaissance & Information Gathering/02-Google-Dork-CheatSheet.md",
+    "03-Sec Practice/Notes Cources/01- Reconnaissance & Information Gathering/02-Google-Dork-CheatSheet.md",
     "02-OS/Linux Notes/RHI123/01-Basics-of-Linux-Commands.md",
     "02-OS/Linux Notes/RHI123/06-Controlling-Access-to-Files-with-Linux-File-System-Permission.md",
     "01-Programing/Miscellaneous information/10-What is Business Intelligence  and what is Cube.md",
     "01-Programing/00_C++/02-C++ Basics/00-Debugging/00-What is Debugging & Why.md",
     "04-LABs And CTFs/Linux/Linux-OverTheWire-Bandit-Level-0-ToBandit-Level-10.md",
-    "04-LABs And CTFs/Linux/Linux-OverTheWire-Bandit-Level-10-ToBandit-Level-20.md",
-    "00-Networks Notes/03-TCP_IP Model/00-Application Layer/00-Introduction Application Layer.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "00-Networks Notes/12-Routing And Switching/09-Comprehensive and integrated practical training for networks (ACL + DHCP + DHCP Snooping + Telnet).md",
-    "README.md",
     "Pasted image 20250709200754.png",
-    "202507112129.md",
-    "202507112128.md",
     "00-Networks Notes/00-Introduction To Computer Networks/Introduction to Computer Networks.jpg",
-    "02-OS/Windows Notes/03-Command Line (CMD & PowerShell) in Windows for Cybersecurity.md",
     "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/link.write.1.tlog",
     "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/link.command.1.tlog",
     "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/link.secondary.1.tlog",
     "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/link.read.1.tlog",
     "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/Function Overloading.lastbuildstate",
-    "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/CL.write.1.tlog",
-    "01-Programing/00_C++/02-C++ Basics/02-More About Functions/Function Overloading/Function Overloading/Function.ef27a5d9/x64/Debug/Function.ef27a5d9.tlog/Cl.items.tlog",
     "Pasted image 20250709101319.png",
     "00-Networks Notes/11- Network Security/01-Network segmentation and Monitoring/CH02-infographic.jpg",
     "13-Tasks In Internship/2024 - ASP.NET Backend @ EraaSoft Training/Task-17/Movies & Series Online Store/MovieMart_Test/MovieMart/MovieMart/wwwroot/Assets/Dashboard/assets/img/error-404-monochrome.svg",
